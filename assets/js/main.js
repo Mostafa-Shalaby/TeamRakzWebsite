@@ -40,19 +40,19 @@ $(function() {
   $('.menuToggle').on(clickevent, function(event) {
     event.preventDefault();
     event.stopPropagation();
-    if ($(this).hasClass('open')) {
-        $(this).removeClass('open');
+    if ($(this).parent('li').hasClass('open')) {$(this).parent('li').removeClass('open');
     } else{
-        $(this).addClass('open');
+        $('.menuToggle').not($(this)).parent('li').removeClass('open');
+        $(this).parent('li').addClass('open');
     }
   });
   
   //Navigation Menu Opacity
   window.addEventListener('scroll', function() {
       if (this.window.scrollY > 10) {
-          this.document.querySelector('header').style.backgroundColor= 'rgba(0,0,0,0.8)';
+          this.document.querySelector('header').style.backgroundColor= 'rgba(51,51,51,1)';
       } else {
-          this.document.querySelector('header').style.backgroundColor= 'rgba(0,0,0,0.1)';
+          this.document.querySelector('header').style.backgroundColor= 'rgba(0,0,0,0)';
       }
   })
 });

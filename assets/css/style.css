@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
-
 /* Variables */
 :root{
 	--link-opacity: 0.95;
@@ -12,6 +10,7 @@
 	--light-color: #f4f4f4;
 	--menu-color: #f4f4f4;
 }
+/* 1d2d35 is the old nav colors -- this is to be changed later */
 
 /* Reset Styling */
 *{
@@ -23,7 +22,7 @@
 
 /* Setting Default/Basic Styling */
 body {
-	background-color: #000;
+	background-color: var(--dark-color);
 	font-family: 'Poppins', 'Roboto', sans-serif;
 	color: var(--dark-color);
 	text-rendering: optimizelegibility;
@@ -97,7 +96,7 @@ header img:hover{
 	list-style: none;
 	width: 30px;
 	height: 4px;
-	background-color: var(--menu-color);
+	background-color: var(--primary-color);
 	border-radius: 3px;
 	margin: 5px 0;
 	cursor: pointer;
@@ -107,7 +106,7 @@ header img:hover{
 }
 .burger.open li {
 	transform: rotate(360deg);
-	background-color: var(--primary-color);
+	background-color: var(--menu-color);
 }
 
 /* Spin on Click */
@@ -163,10 +162,10 @@ nav li ul{
 	overflow: hidden;
 	transform: scaleY(0);    
 	transform-origin: top;
-	transition: transform 0.25s ease;
-	-webkit-transition: transform 0.25s ease;
-	-moz-transition: transform 0.25s ease;
-	-ms-transition: transform 0.25s ease;
+	transition: transform 0.275s ease;
+	-webkit-transition: transform 0.275s ease;
+	-moz-transition: transform 0.275s ease;
+	-ms-transition: transform 0.275s ease;
 }
 nav li ul li{
 	display: block;
@@ -390,7 +389,7 @@ header {
 	height: 60px;
 	z-index: 2;
 	/* background-color: #060a0c; */
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0);
 	
 	position: fixed;
 	top: 0;
@@ -436,12 +435,12 @@ nav li a.logo {
 }
 nav li a:hover {
 	color: #fff;
-	background-color: #19252c;
+	background-color: #232323;
 }
 nav li a.active {
-	color: var(--primary-color);
+	color: #333;
 	border: none;
-	background-color: #141e23;
+	background-color: var(--primary-color);
 }
 nav li:first-child a.active,
 nav li:first-child a:hover 
@@ -449,7 +448,7 @@ nav li:first-child a:hover
 
 nav li ul li{
 	width: 100vw;
-	background-color: #141e23;
+	background-color: #121212;
 }
 
 nav li ul li a{
@@ -462,17 +461,17 @@ nav li:hover ul{
 }
 
 /* Dropdown Toggler */
-nav li a i.fa-angle-down{
-	transition: transform 0.3s ease;
-	-webkit-transition: transform 0.3s ease;
-	-moz-transition: transform 0.3s ease;
+nav li a{
+	transition: transform 0.25s ease;
+	-webkit-transition: transform 0.25s ease;
+	-moz-transition: transform 0.25s ease;
 }
-nav li.open a i.fa-angle-down{
+nav li.open a i{
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 }
-nav li.open ul {
+nav li.open ul{
 	position: relative;
 	transform: scaleY(1);
 	-webkit-transform: scaleY(1);
@@ -501,7 +500,7 @@ nav {
 	left: 0;
 	top: 0;
 	margin: 0;
-	background-color: #1d2d35;
+	background-color: var(--dark-color);
 	border-radius: 8px;
 	
 	/* starting point */
