@@ -27,6 +27,7 @@ body {
 	font-family: 'Poppins', 'Roboto', sans-serif;
 	color: var(--dark-color);
 	text-rendering: optimizelegibility;
+	overflow-x: hidden;
 	
 	/* For Compatibility in Older Browsers */
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
@@ -106,7 +107,7 @@ header img:hover{
 }
 .burger.open li {
 	transform: rotate(360deg);
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 }
 
 /* Spin on Click */

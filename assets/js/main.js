@@ -38,6 +38,7 @@ $(function() {
   });
 
   $('.menuToggle').on(clickevent, function(event) {
+    event.preventDefault();
     event.stopPropagation();
     if ($(this).hasClass('open')) {
         $(this).removeClass('open');
