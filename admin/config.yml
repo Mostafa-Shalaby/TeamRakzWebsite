@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+# This line should *not* be indented
+publish_mode: editorial_workflow
+media_folder: "uploads" # Media files will be stored in the repo under images/uploads
+collections:
+  - label: "News" # Used in the UI
+    name: "news" # Used in routes, e.g. /admin/collections/blog
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Global"
+    name: "global"
+    files:
+      - label: "Business Info"
+        name: "info"
+        file: "_data/business.yml"
+        fields:
+          - {label: name, name: name, widget: string}
+          - {label: address_full, name: address_full, widget: string, hint: "Example: 333 S. Franklin Street Tampa, FL 33602"}
+          - {label: address_street, name: address_street, widget: string, hint: "Example: 333 S. Franklin Street"}
+          - {label: address_city, name: address_city, widget: string, hint: "Tampa"}
+          - {label: phone_primay, name: phone_primay, widget: string, pattern: ['[(]?\d{3}[-.)]?[ ]?\d{3}[-.]?\d{4}\b', "Must be a phone number"], hint: "(813) 123-4567"}
+          - {label: phone_secondary, name: phone_secondary, widget: string, hint: "(813) 765-4321"}
+          - {label: fax, name: fax, widget: string, hint: "(813) 666-6666"}
+          - {label: email_primary, name: email_primary, widget: string, pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Must be an email address"]}
+          - {label: google_maps_api_key, name: google_maps_api_key, widget: string, hint: "Used to display embeded maps"}
+      - label: "Social Media"
+        name: "social"
+        file: "_data/social_media.yml"
+        fields:
+          - label: platform
+            name: platform
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - {label: Link, name: link, widget: string}
+      - label: "Services"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+          - label: services
+            name: services
+            widget: list
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - {label: body, name: body, widget: string}
