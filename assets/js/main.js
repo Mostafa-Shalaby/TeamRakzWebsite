@@ -1,5 +1,6 @@
 // Initializes Navigation Menu
 $(document).ready(function () {
+    $('.loader').fadeOut('slow');
     $("#respMenu").aceResponsiveMenu({resizeWidth: "780" });
 });
 // //Navigation Menu Background Changer
@@ -10,4 +11,6 @@ $(document).ready(function () {
 //         this.document.querySelector('nav').style.backgroundColor= 'rgba(0,0,0,0)';
 //     }
 // })
+
+
 
