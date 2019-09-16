@@ -1,0 +1,148 @@
+/* Variables */
+:root{
+	--link-opacity: 0.95;
+	--linkhovered-opacity: 1;
+	--primary-color: #fed136;
+	--secondary-color: #fcea33;
+	--tertiary-color: #02a5d9;
+	--tertiary-alt-color: #01b1b0;
+	--dark-color: #333;
+	--light-color: #f4f4f4;
+	--menu-color: #f4f4f4;
+}
+
+body {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  color: var(--dark-color);
+}
+a {text-decoration: none;}
+
+/* Utility Classes */
+.required::after{
+	color: #ff0000;
+	content: ' *';
+}
+
+/*  Content CSS  */
+.container {
+	overflow: hidden;
+	background-color: var(--light-color);
+}
+
+.showcase{
+  background: #333 url('../img/Covers/Books2.jpg') no-repeat center center/cover;
+  height: 75vh;
+  color: #fff;
+}
+.placeholder{
+	background: #f4f4f4;
+	height: 200vh;
+	width: 100%;
+}
+/* Contact Page Styling */
+.contact-showcase{
+	background: var(--dark-color) url('../img/Covers/Contact1.jpg') no-repeat center center/cover;
+	height: 50vh;
+}
+.contact{
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	background: #f4f4f4;
+}
+.contactform{
+	flex: 1;
+	width: auto;
+	font-size: 1rem;
+	padding: 1.5rem;
+}
+.contactform h2{
+	font-size: 1.5rem;
+}
+.contactform p{
+	margin-bottom: 1rem;
+}
+.contactform label{
+	font-weight: 100;
+}
+.contactform input, 
+.contactform select, 
+.contactform textarea{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	width: 100%;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 1rem;
+}
+.contactform input[type='submit']{
+	color: var(--menu-color);
+	background: var(--primary-color);
+	border: 2px solid var(--primary-color);
+	transition: color, background, 0.35s ease-in-out;
+	-webkit-transition: color, background, 0.35s ease-in-out;
+	-moz-transition: color, background, 0.35s ease-in-out;
+	-ms-transition: color, background, 0.35s ease-in-out;
+}
+.contactform input[type='submit']:hover{
+	color: var(--primary-color);
+	background: var(--light-color);
+}
+.contactother{
+	flex: 1;
+	width: auto;
+	font-size: 1rem;
+	padding: 1.5rem;
+}
+.contactother h2{
+font-size: 1.5rem;
+}
+.contactother h3{
+	font-weight: 900;
+	size: 1.5rem;
+	color: var(--primary-color);
+}
+.contactother p{
+	font-weight: 100;
+	margin-bottom: 1rem;
+}
+
+/* Electical Page Styling */
+.electrical-showcase{
+	background: var(--dark-color) url('../img/Covers/Electical1.jpg') no-repeat center center/cover;
+	height: 50vh;
+}
+.electrical{
+	font-family: 'Poppins', sans-serif;
+}
+.items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item{
+	flex: 1;
+	max-width: 25vw;
+	color: var(--light-color);
+	background: var(--primary-color);
+	padding: 1rem;
+
+}
+.item:nth-child(even){
+	background: var(--dark-color);
+}
+
+.item:nth-child(odd) a, .item:nth-child(even) a:hover {
+	color: var(--light-color);
+	background: var(--primary-color);
+	transition: background 0.35s ease-in-out;
+}
+
+.item:nth-child(even) a, .item:nth-child(odd) a:hover{
+	color: var(--light-color);
+	background: var(--dark-color);
+}

@@ -1,18 +1,41 @@
-<!-- Slide/Menu Bar -->
-  <header class="slide">
-    <ul id="navToggle" class="burger slide">
-      <li></li><li></li><li></li>
-    </ul>
-    <a href="./index.html">
-      <img src="/assets/img/Logos/Logo-Colored.png" alt="Team Rakz Logo">
-    </a>
-  </header>
-  <nav class="slide">
-    <ul>
-      <li><a href="#" class="active"><i class="fas fa-home"></i> HOME</a></li>
-      <li><a href="#"><i class="fas fa-users"></i> PREPARTORY</a></li>
+<!-- Ace Responsive Menu -->
+  <nav>
+    <div id="menu-logo">
+      <!-- Website Logo -->
+      <a href="./index.html">
+        <img src="/assets/img/Logos/Logo-Light.png" alt="Team Rakz Logo">
+      </a>
+    </div>
+    <!-- Menu Toggle btn-->
+    <div class="menu-toggle">
+      <button type="button" id="menu-btn">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Responsive Menu Structure-->
+    <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+    <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
       <li>
-        <a href="./electrical.html" class="menuToggle"><i class="fas fa-bolt"></i> ELECTRICAL <i class="fas fa-angle-down"></i></a>
+        <a href="javascript:;">
+          <i class="fas fa-home" aria-hidden="true"></i>
+          <span class="title">HOME</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <i class="fas fa-users" aria-hidden="true"></i>
+          <span class="title">PREPARTORY</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <i class="fas fa-bolt" aria-hidden="true"></i>
+          <span class="title">ELECTRICAL</span>
+          <i class="fas fa-angle-down" aria-hidden="true"></i>
+        </a>
+        <!-- Level 2 SubMenu -->
         <ul>
           <li><a>Year 1 General</a></li>
           <li><a>Year 2 General</a></li>
@@ -25,7 +48,12 @@
         </ul>
       </li>
       <li>
-        <a href="#" class="menuToggle"><i class="fas fa-hard-hat"></i> CIVIL <i class="fas fa-angle-down"></i></a>
+        <a href="javascript:;">
+          <i class="fas fa-hard-hat" aria-hidden="true"></i>
+          <span class="title">CIVIL</span>
+          <i class="fas fa-angle-down" aria-hidden="true"></i>
+        </a>
+        <!-- Level 2 SubMenu -->
         <ul>
           <li><a>Year 1 General</a></li>
           <li><a>Year 2 General</a></li>
@@ -34,17 +62,27 @@
         </ul>
       </li>
       <li>
-        <a href="#" class="menuToggle"><i class="fas fa-cog"></i> MECHANICAL <i class="fas fa-angle-down"></i></a>
+        <a href="javascript:;">
+          <i class="fas fa-cog" aria-hidden="true"></i>
+          <span class="title">MECHANICAL</span>
+          <i class="fas fa-angle-down" aria-hidden="true"></i>
+        </a>
+        <!-- Level 2 SubMenu -->
         <ul>
-            <li><a>Year 1: General</a></li>
-            <li><a>Year 2: General</a></li>
-            <li><a>Year 3: Power</a></li>
-            <li><a>Year 3: Production</a></li>
-            <li><a>Year 4: Power</a></li>
-            <li><a>Year 4: Production</a></li>
-          </ul>
-        </li>
+          <li><a>Year 1: General</a></li>
+          <li><a>Year 2: General</a></li>
+          <li><a>Year 3: Power</a></li>
+          <li><a>Year 3: Production</a></li>
+          <li><a>Year 4: Power</a></li>
+          <li><a>Year 4: Production</a></li>
+        </ul>
       </li>
-      <li><a href="./contact.html"><i class="fas fa-envelope-open-text"></i> CONTACT</a></li>
+      <li>
+        <a href="javascript:;">
+          <i class="fas fa-envelope-open" aria-hidden="true"></i>
+          <span class="title">CONTACTS</span>
+        </a>
+      </li>
     </ul>
   </nav>
+  <!-- End of Responsive Menu -->

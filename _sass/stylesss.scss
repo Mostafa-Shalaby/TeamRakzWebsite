@@ -461,16 +461,6 @@ nav li:hover ul{
 }
 
 /* Dropdown Toggler */
-nav li a{
-	transition: transform 0.25s ease;
-	-webkit-transition: transform 0.25s ease;
-	-moz-transition: transform 0.25s ease;
-}
-nav li.open a i{
-	transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-}
 nav li.open ul{
 	position: relative;
 	transform: scaleY(1);
@@ -503,6 +493,7 @@ nav {
 	background-color: var(--dark-color);
 	border-radius: 8px;
 	
+	
 	/* starting point */
 	opacity: .3;
 	transform: translate3d(5%,0,0)scale(.97);
@@ -513,6 +504,7 @@ nav {
 /*Nav Expanding Open Effect*/
 nav.open {
 	opacity: 1;
+	outline: 0;
 
 	-webkit-transform: translate3d(0,0,0)scale(1);
 	-webkit-animation: slideIn .35s ease-in-out;
@@ -586,7 +578,7 @@ nav.close {
 /*Content Sliding Open Effect*/
 header.open,
 .content.open 
-{   
+{
 	-webkit-transform: translate3d(240px,0,0);
 	-webkit-animation: open .5s ease-in-out;
 	
