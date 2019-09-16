@@ -3,13 +3,13 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--dark-color);
-	border-top: 3px solid var(--primary-color);
+	background: $dark-color;
+	border-top: 3px solid $primary-color;
 	padding: 0.5rem 1rem;
 }
 footer p{
 	margin-left: 0.25rem;
-	color: var(--light-color);
+	color: $light-color;
 	font-size: 0.75rem;
 	line-height: 1.5rem;
 	text-align: center;

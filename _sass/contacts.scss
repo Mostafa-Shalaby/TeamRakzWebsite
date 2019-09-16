@@ -1,0 +1,73 @@
+/* Contact Page Styling */
+.contact-showcase{
+	background: $dark-color url('../img/Covers/Contact1.jpg') no-repeat center center/cover;
+	height: 75vh;
+}
+.contact{
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	background: #f4f4f4;
+}
+.contactform{
+	flex: 1;
+	width: auto;
+	font-size: 1rem;
+	padding: 1.5rem;
+}
+.contactform h2{
+	font-size: 1.5rem;
+}
+.contactform p{
+	margin-bottom: 1rem;
+}
+.contactform label{
+	font-weight: 100;
+}
+.contactform input, 
+.contactform select, 
+.contactform textarea{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	width: 100%;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 1rem;
+}
+.contactform input[type='submit']{
+	color: $menu-color;
+	background: $primary-color;
+	border: 2px solid $primary-color;
+	transition: color, background, 0.35s ease-in-out;
+	-webkit-transition: color, background, 0.35s ease-in-out;
+	-moz-transition: color, background, 0.35s ease-in-out;
+	-ms-transition: color, background, 0.35s ease-in-out;
+}
+.contactform input[type='submit']:hover{
+	color: $primary-color;
+	background: $light-color;
+}
+.contactother{
+	flex: 1;
+	width: auto;
+	font-size: 1rem;
+	padding: 1.5rem;
+}
+.contactother h2{
+font-size: 1.5rem;
+}
+.contactother h3{
+	font-weight: 900;
+	size: 1.5rem;
+	color: $primary-color;
+}
+.contactother p{
+	font-weight: 100;
+	margin-bottom: 1rem;
+}
+@media only screen and (max-width: 780px) {
+  /* Universal Footer Mobile Styling */
+  .contact {flex-direction: column;}
+}

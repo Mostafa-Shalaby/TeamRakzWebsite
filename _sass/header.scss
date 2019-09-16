@@ -10,23 +10,32 @@ ul {
 nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: fixed;
     width:100%;
+    background-color: transparent;
+    transition: background-color, 0.35s ease;
+    -webkit-transition: background-color, 0.35s ease;
+    -moz-transition: background-color, 0.35s ease;
+    -ms-transition: background-color, 0.35s ease;
 }
 #menu-logo{
     flex: auto;
-    background-color: #333;
 }
 #menu-logo img{
     height: 45px;
     margin: 5px auto auto 10px;
+    opacity: 0.90;
+}
+#menu-logo:hover img{
+    opacity: 1;
 }
 .ace-responsive-menu {
-    align-self: flex-end;
+    justify-self: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
-    background: #333;
+    background: transparent;
     font-family: 'Roboto', sans-serif;
     overflow: auto;
     /* border-bottom: 3px solid #FD5025; */
@@ -44,8 +53,14 @@ nav{
     border: 0px;
     float: left;
 }
-.ace-responsive-menu li a {
-    color:#c0c0c0;
+.ace-responsive-menu li a{
+    color: $light-color;
+    opacity: 0.90;
+    text-shadow: 0 0 3px rgba(0,0,0,1);
+    transition: color, opacity, background-color, 0.35s ease;
+    -webkit-transition: color, opacity, background-color, 0.35s ease;
+    -moz-transition: color, opacity, background-color, 0.35s ease;
+    -ms-transition: color, opacity, background-color, 0.35s ease;
 }
 .ace-responsive-menu > li > a {
     display: block;
@@ -56,23 +71,12 @@ nav{
     text-decoration: none;
     font-size: 14px;
     font-weight: 300;
-    color: #c0c0c0;
+    border-radius: 5px;
 }
-.ace-responsive-menu li a i {
-    padding-right: 0;
-    color: #fed136;
-}
-.ace-responsive-menu > li > a i {
-    font-size: 14px;
-    text-shadow: none;
-    color: #fed136;
-}
-.ace-responsive-menu li ul.sub-menu li a i {
-    padding-right: 10px;
-}
+
 .ace-responsive-menu li.menu-active > a {
-    background: #272727;
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    opacity: 1;
 }
 .ace-responsive-menu li .menu-active {
     position: relative;
@@ -98,7 +102,6 @@ nav{
     text-decoration: none;
     font-size: 13px;
     font-weight: normal;
-    background: none;
 }
 .ace-responsive-menu > li > ul.sub-menu > li {
     position: relative;
@@ -118,13 +121,12 @@ nav{
     list-style: none;
 }
 
-/* Menu Toggle Btn
-----------------------------------------*/
+/* Menu Toggle Btn */
 
 .menu-toggle {
     display: none;
     justify-self: flex-end;
-    background: #333;
+    background: transparent;
 }
 .menu-toggle .icon-bar {
     display: block !important;
@@ -170,7 +172,7 @@ ul[data-menu-style="accordion"] > li {
     float: none !important;
 }
 ul[data-menu-style="accordion"] > li:first-child {
-    border-top: 2px solid #fccd25;
+    border-top: 2px solid $primary-color;
 }
 ul[data-menu-style="accordion"] li ul.sub-menu > li {
     width: 100%;
@@ -184,10 +186,6 @@ ul[data-menu-style="accordion"] li.menu-active > a > .arrow:before {
 }
 ul[data-menu-style="accordion"] > li > ul.sub-menu {
     position: static;
-}
-ul[data-menu-style="accordion"] > li > a i {
-    padding-right: 10px;
-    color: #fccd25;
 }
 ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu {
     position: static;
@@ -233,10 +231,7 @@ ul[data-menu-style="vertical"] > li > ul.sub-menu {
     top:0px;
     width:200px;
 }
-ul[data-menu-style="vertical"] > li > a i {
-    padding-right: 10px;
-    color: #fccd25;
-}
+
 ul[data-menu-style="vertical"]> li > ul.sub-menu > li ul.sub-menu {
     position: absolute;
     width:200px;
@@ -251,7 +246,7 @@ ul[data-menu-style="vertical"] > li {
     border-bottom: 1px solid #242424;
 }
 ul[data-menu-style="vertical"] li a:hover {
-    background: #272727 !important;
+    background: #272727;
 }
 
 /* Responsive Menu Styles
@@ -272,20 +267,21 @@ ul[data-menu-style="vertical"] li a:hover {
     } 
     .ace-responsive-menu {
         width: 100%;
+        max-height: 85vh;
+        overflow-y: auto;
+        color: #333;
     }
-    .ace-responsive-menu > li {border-bottom: 1px solid #242424;
-       float: none;
-    }   
+    .ace-responsive-menu > li {
+        background-color: #333;
+        border-bottom: 1px solid #242424;
+        float: none;
+    }  
     .ace-responsive-menu li a:hover {
-        background: #272727 !important;
+        background: #272727;
     }
     .ace-responsive-menu > li:first-child {
         border-top: 2px solid #fccd25;
     }    
-    .ace-responsive-menu > li > a i {
-        padding-right: 10px;
-        color: #fccd25;
-    }
     .ace-responsive-menu > li > a > .arrow:before {
         content: " \276F";
 		font-weight: 300;
@@ -329,4 +325,8 @@ ul[data-menu-style="vertical"] li a:hover {
         transform: rotate(90deg);
     }
 } 
- 
+
+/* Active Link Styling */
+li.active>a {
+    color: $primary-color;
+}
