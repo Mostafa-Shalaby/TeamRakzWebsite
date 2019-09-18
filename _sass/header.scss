@@ -8,6 +8,7 @@ ul {
     padding: 0px;
 }
 nav{
+    z-index: 2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +37,6 @@ nav{
     margin: 0;
     padding: 0;
     background: transparent;
-    font-family: 'Roboto', sans-serif;
     overflow: auto;
     /* border-bottom: 3px solid #FD5025; */
 }
@@ -67,15 +67,15 @@ nav{
     position: relative;
     margin: 0;
     border: 0px;
-    padding: 20px 10px 20px 10px;
+    padding: 21px 8px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 13.5px;
+    font-weight: 500;
     border-radius: 5px;
 }
 
 .ace-responsive-menu li.menu-active > a {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
     opacity: 1;
 }
 .ace-responsive-menu li .menu-active {
@@ -132,7 +132,7 @@ nav{
     display: block !important;
     width: 18px;
     height: 2px;
-    background-color: #F5F5F5 !important;
+    background-color: $primary-color;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -142,7 +142,7 @@ nav{
     margin: 3px;
 }
 .menu-toggle .icon-bar:hover {
-    background-color: #F5F5F5 !important;
+    background-color: $primary-color;
 }
 .menu-toggle #menu-btn {
     float: right;

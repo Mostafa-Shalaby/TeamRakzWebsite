@@ -10,8 +10,20 @@ $(document).ready(function () {
             this.document.querySelector('nav').style.backgroundColor= 'rgba(0,0,0,0)';
         }
     })
+    // Smooth Scrolling
+    $('a.page-scroll').on('click', function(event) {
+      if(this.hash !=='') {
+        event.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top - 58
+          }, 800
+        );
+      }
+    });
 });
-
+// netlifyIdentity Login 
 if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -21,6 +33,3 @@ if (window.netlifyIdentity) {
       }
     });
 }
-
-
-

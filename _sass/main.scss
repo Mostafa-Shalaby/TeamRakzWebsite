@@ -1,9 +1,8 @@
 /* Importing Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:500,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Lato:500,700,500italic,700italic');
 @import url('../font/font-awesome/css/all.min.css');
 
 /* Variables */
@@ -16,30 +15,139 @@ $light-color: #f4f4f4;
 $menu-color: #f4f4f4;
 
 body {
-  font-family: 'Poppins', 'Roboto', sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $dark-color;
 }
+h2{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+h3{
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+p{
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+::selection { background: $primary-color /* WebKit/Blink Browsers */ }
+::-moz-selection { background: $primary-color; /* Gecko Browsers */}
+
 a {text-decoration: none;}
 
 /* Utility Classes */
+.container{
+	color: $dark-color;
+	padding: 20px 10px;
+}
+.text-primary{
+	color: $primary-color;
+}
+.text-secondary{
+	color: $secondary-color;
+}
+.subheading {
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	line-height: 27px;
+	color: $grey-color;
+	margin-bottom: 10px;
+}
 .required::after{
-	color: #ff0000;
+	color: #c20000;
 	content: ' *';
 }
 
-/*  Content CSS  */
-.container {
-	overflow: hidden;
-	background-color: $light-color;
+/* Standerd Buttons */
+.btn{
+	display: inline-block;
+	color: $primary-color;
+	background-color: $dark-color;
+	border: none;
+	font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 25px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	transition: color, background-color, 0.35s ease-in-out;
+}
+.btn-light, .btn:hover{
+	background-color: $primary-color;
+	color: $dark-color;
 }
 
+/* Splash Cover Styling */
 .showcase{
   background: $dark-color url('../img/Covers/Books1.jpg') no-repeat center center/cover;
-  height: 75vh;
-  color: #fff;
+	max-height: 100vh;
+	text-align: center;
+	color: $light-color;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 200px 100px;
 }
-.placeholder{
-	background: #f4f4f4;
-	height: 200vh;
-	width: 100%;
+
+.showcase > h2 {	
+	margin: 30px 0;
+	align-self: center;
+	justify-self: center;
+	text-transform: uppercase;
+	font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 45px ;
+	text-shadow: 0 0 3px #000000;
+}
+
+.showcase > img{
+	height: 120px;
+}
+
+.showcase .btn{
+	font-size: 18px;
+	padding: 20px 40px;
+	box-shadow: 0 0 3px #000000;
+}
+
+/* Universal Page Footer */
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: $dark-color;
+	border-top: 3px solid $primary-color;
+	padding: 0.5rem 1rem;
+}
+footer p{
+	margin-left: 0.25rem;
+	color: $light-color;
+	font-size: 0.75rem;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+/* Main Mobile Styling */
+@media only screen and (max-width: 780px){
+	/* Splash Cover Mobile Styling */
+	.showcase{
+		padding: 100px 50px;
+	}
+	.showcase > h2 {
+		margin: 15px 0;
+		font-size: 30px;
+		line-height: 30px ;
+	}
+	.showcase > img {
+		height: 90px;
+	}
+/* Footer Mobile Styling */
+	footer {flex-direction: column;}
 }
