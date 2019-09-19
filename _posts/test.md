@@ -1,2 +1,0 @@
-# TeamRakzWebsite Tester
-Test Markdown

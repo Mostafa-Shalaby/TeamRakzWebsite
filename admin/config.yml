@@ -11,19 +11,21 @@ media_folder: "/assets/uploads/"
 logo_url: "/assets/img/logos/Logo-CMS.png"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "article" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - label: "Prepartory"
+    name: "prepartory"
+    folder: "_data/prepartory/"
+    create: true
+    slug: "{{slug}}"
     editor:
-     preview: false
+      preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Type", name: "type", widget: "select", options: ["left", "center", "right"]}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Week Title", name: "title", widget: "string", hint: "Hint: Week 1, Week 2, etc..."}
+      - {label: "Week Compilation URL", name: "week-url", widget: "string", hint: "Hint: Google Drive link to Week Compilation File"}
       - label: "Files"
         name: "files"
         widget: "list"
-        field: {name: tag, label: Tag, widget: string}   
+        fields: 
+        - {name: "name", label: "File Name", widget: "string", hint: "Ex. Lecture 1: Introduction into fluids, Section 2: Signal Types, etc...."}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Mathematics 1","Engineering Physics 1","Mechanics 1","Engineering Chemistry", "Computer Technology", "Production technology", "Technical English", "Engineering History"]}   
+        - {name: "url", label: "File URL", widget: "string", hint: "Hint: Google Drive link to the file."}
