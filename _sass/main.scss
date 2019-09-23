@@ -156,7 +156,7 @@ a {text-decoration: none;}
   flex-direction: column;
   width: 100%;
   padding: 15px 45px 15px 15px;
-  color: $grey-color;
+  color: $dark-color;
   font-size: 18px;
   font-weight: 400;
 	border-bottom: 1px solid #e5e5e5;
@@ -179,7 +179,7 @@ a {text-decoration: none;}
   float: right;
   right: 1rem;
   font-size: 1.5rem;
-  color: $grey-color;
+  color: $dark-color;
 	text-align: center;
 	transition: color 0.35s ease-in-out;
 }
@@ -207,7 +207,7 @@ a {text-decoration: none;}
 }
 .accordion-item > .content h2{
 	text-align: left;
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 15px;
 }
 
@@ -279,7 +279,7 @@ footer p{
 	/* Accordion items Mobile Styling*/
 	.accordion-item > a:hover,
 	.accordion-item > a:hover::after {
-		color: $grey-color;
+		color: $dark-color;
 	}
 	.accordion-item > a.active,
 	.accordion-item > a.active::after {
