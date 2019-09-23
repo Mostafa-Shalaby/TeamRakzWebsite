@@ -4,8 +4,422 @@ title: Prepartory
 ---
 <!-- Main Page Details -->
   <!-- Showcase/Cover Image Section -->
-  <section class="showcase">
-    <img src="../assets/img/Logos/Logo-Light-S.png" alt="Main Team Rakz Logo">
-    <h2>Welcome to Team Rakz!</h2>
-    <a href="#aboutus" class="btn page-scroll">Learn More</a>
+  <section id="prepartory-showcase" class="showcase">
+    <h2>Prepartory</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <!-- Page Content -->
+  <section class="container">
+    <div class="accordion">
+      <div class="accordion-item">
+        <a>Weekly Lecture Compilation</a>
+        <div class="content">
+          <div class="week-items">
+            {% assign count = 0 %}
+            {% assign weekfiles = site.data.prepartory.Fall-2019.files | where: 'subject', 'Week Compilation' %}
+            {% if weekfiles.size !=  0 %}
+            <h2>Weeks:</h2>
+            {% endif %}
+            {% for file in weekfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Week {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Engineering Mathematics 1</a>
+        <div class="content">
+          <div class="lecture-items">
+            {% assign count = 0 %}
+            {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Engineering Mathematics 1' %}
+            {% if lecturefiles.size !=  0 %}
+            <h2>Lectures:</h2>
+            {% endif %}
+            {% for file in lecturefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Lecture {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="section-items">
+            {% assign count = 0 %}
+            {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Engineering Mathematics 1' %}
+            {% if sectionfiles.size !=  0 %}
+            <h2>Sections:</h2>
+            {% endif %}
+            {% for file in sectionfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Section {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="book-items">
+            {% assign count = 0 %}
+            {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Engineering Mathematics 1' %}
+            {% if bookfiles.size !=  0 %}
+            <h2>Books:</h2>
+            {% endif %}
+            {% for file in bookfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Book {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="exercise-items">
+            {% assign count = 0 %}
+            {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Engineering Mathematics 1' %}
+            {% if exercisefiles.size !=  0 %}
+            <h2>Exercises:</h2>
+            {% endif %}
+            {% for file in exercisefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Exercise {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Engineering Physics 1</a>
+        <div class="content">
+          <div class="lecture-items">
+            {% assign count = 0 %}
+            {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Engineering Physics 1' %}
+            {% if lecturefiles.size !=  0 %}
+            <h2>Lectures:</h2>
+            {% endif %}
+            {% for file in lecturefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Lecture {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="section-items">
+            {% assign count = 0 %}
+            {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Engineering Physics 1' %}
+            {% if sectionfiles.size !=  0 %}
+            <h2>Sections:</h2>
+            {% endif %}
+            {% for file in sectionfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Section {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="book-items">
+            {% assign count = 0 %}
+            {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Engineering Physics 1' %}
+            {% if bookfiles.size !=  0 %}
+            <h2>Books:</h2>
+            {% endif %}
+            {% for file in bookfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Book {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="exercise-items">
+            {% assign count = 0 %}
+            {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Engineering Physics 1' %}
+            {% if exercisefiles.size !=  0 %}
+            <h2>Exercises:</h2>
+            {% endif %}
+            {% for file in exercisefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Exercise {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Mechanics 1</a>
+        <div class="content">
+          <div class="lecture-items">
+            {% assign count = 0 %}
+            {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Mechanics 1' %}
+            {% if lecturefiles.size !=  0 %}
+            <h2>Lectures:</h2>
+            {% endif %}
+            {% for file in lecturefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Lecture {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="section-items">
+            {% assign count = 0 %}
+            {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Mechanics 1' %}
+            {% if sectionfiles.size !=  0 %}
+            <h2>Sections:</h2>
+            {% endif %}
+            {% for file in sectionfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Section {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="book-items">
+            {% assign count = 0 %}
+            {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Mechanics 1' %}
+            {% if bookfiles.size !=  0 %}
+            <h2>Books:</h2>
+            {% endif %}
+            {% for file in bookfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Book {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="exercise-items">
+            {% assign count = 0 %}
+            {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Mechanics 1' %}
+            {% if exercisefiles.size !=  0 %}
+            <h2>Exercises:</h2>
+            {% endif %}
+            {% for file in exercisefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Exercise {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Engineering Chemistry</a>
+        <div class="content">
+          <div class="lecture-items">
+            {% assign count = 0 %}
+            {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Engineering Chemistry' %}
+            {% if lecturefiles.size !=  0 %}
+            <h2>Lectures:</h2>
+            {% endif %}
+            {% for file in lecturefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Lecture {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="section-items">
+            {% assign count = 0 %}
+            {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Engineering Chemistry' %}
+            {% if sectionfiles.size !=  0 %}
+            <h2>Sections:</h2>
+            {% endif %}
+            {% for file in sectionfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Section {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="book-items">
+            {% assign count = 0 %}
+            {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Engineering Chemistry' %}
+            {% if bookfiles.size !=  0 %}
+            <h2>Books:</h2>
+            {% endif %}
+            {% for file in bookfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Book {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="exercise-items">
+            {% assign count = 0 %}
+            {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Engineering Chemistry' %}
+            {% if exercisefiles.size !=  0 %}
+            <h2>Exercise:</h2>
+            {% endif %}
+            {% for file in exercisefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Exercise {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Computer Technology</a>
+        <div class="content">
+          <div class="lecture-items">
+            {% assign count = 0 %}
+            {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Computer Technology' %}
+            {% if lecturefiles.size !=  0 %}
+            <h2>Lectures:</h2>
+            {% endif %}
+            {% for file in lecturefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Lecture {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="section-items">
+            {% assign count = 0 %}
+            {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Computer Technology' %}
+            {% if sectionfiles.size !=  0 %}
+            <h2>Sections:</h2>
+            {% endif %}
+            {% for file in sectionfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Section {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="book-items">
+            {% assign count = 0 %}
+            {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Computer Technology' %}
+            {% if bookfiles.size !=  0 %}
+            <h2>Books:</h2>
+            {% endif %}
+            {% for file in bookfiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Book {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="exercise-items">
+            {% assign count = 0 %}
+            {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Computer Technology' %}
+            {% if exercisefiles.size !=  0 %}
+            <h2>Exercises:</h2>
+            {% endif %}
+            {% for file in exercisefiles %}
+            {% assign count = count | plus: 1 %}
+            <div class="file-item">
+              <h4>Exercise {{count}}:</h4>
+              <p>{{ file.description }}</p>
+              <a href="{{ file.url }}" class="btn">Open</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <a>Engineering Drawing and Projection</a>
+          <div class="content">
+            <div class="lecture-items">
+              {% assign count = 0 %}
+              {% assign lecturefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Lecture' | where: 'subject', 'Engineering Drawing and Projection' %}
+              {% if lecturefiles.size !=  0 %}
+              <h2>Lectures:</h2>
+              {% endif %}
+              {% for file in lecturefiles %}
+              {% assign count = count | plus: 1 %}
+              <div class="file-item">
+                <h4>Lecture {{count}}:</h4>
+                <p>{{ file.description }}</p>
+                <a href="{{ file.url }}" class="btn">Open</a>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="section-items">
+              {% assign count = 0 %}
+              {% assign sectionfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Section' | where: 'subject', 'Engineering Drawing and Projection' %}
+              {% if sectionfiles.size !=  0 %}
+              <h2>Sections:</h2>
+              {% endif %}
+              {% for file in sectionfiles %}
+              {% assign count = count | plus: 1 %}
+              <div class="file-item">
+                <h4>Section {{count}}:</h4>
+                <p>{{ file.description }}</p>
+                <a href="{{ file.url }}" class="btn">Open</a>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="book-items">
+              {% assign count = 0 %}
+              {% assign bookfiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Book' | where: 'subject', 'Engineering Drawing and Projection' %}
+              {% if bookfiles.size !=  0 %}
+              <h2>Books:</h2>
+              {% endif %}
+              {% for file in bookfiles %}
+              {% assign count = count | plus: 1 %}
+              <div class="file-item">
+                <h4>Book {{count}}:</h4>
+                <p>{{ file.description }}</p>
+                <a href="{{ file.url }}" class="btn">Open</a>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="exercise-items">
+              {% assign count = 0 %}
+              {% assign exercisefiles = site.data.prepartory.Fall-2019.files | where: 'type', 'Exercise' | where: 'subject', 'Engineering Drawing and Projection' %}
+              {% if exercisefiles.size !=  0 %}
+              <h2>Exercises:</h2>
+              {% endif %}
+              {% for file in exercisefiles %}
+              {% assign count = count | plus: 1 %}
+              <div class="file-item">
+                <h4>Exercise {{count}}:</h4>
+                <p>{{ file.description }}</p>
+                <a href="{{ file.url }}" class="btn">Open</a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+    </div>
   </section>

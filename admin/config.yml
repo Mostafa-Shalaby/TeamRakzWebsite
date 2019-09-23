@@ -4,9 +4,7 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - member
-
 # publish_mode: editorial_workflow
-
 media_folder: "/assets/uploads/"
 logo_url: "/assets/img/logos/Logo-CMS.png"
 
@@ -16,16 +14,17 @@ collections:
     folder: "_data/prepartory/"
     create: true
     slug: "{{slug}}"
+    extension: "yml"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Week Title", name: "title", widget: "string", hint: "Hint: Week 1, Week 2, etc..."}
-      - {label: "Week Compilation URL", name: "week-url", widget: "string", hint: "Hint: Google Drive link to Week Compilation File"}
+      - {name: "title", label: "Collection Title:", widget: "string", hint: "Fall is Term 1, Winter is Term 2"}
       - label: "Files"
         name: "files"
         widget: "list"
         fields: 
-        - {name: "name", label: "File Name", widget: "string", hint: "Ex. Lecture 1: Introduction into fluids, Section 2: Signal Types, etc...."}
+        - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 1","Engineering Physics 1","Mechanics 1","Engineering Chemistry", "Computer Technology", "Engineering Drawing and Projection", "Production Technology", "Technical English", "Engineering History"]}
         - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
-        - {name: "subject", label: "File Subject", widget: "select", options: ["Mathematics 1","Engineering Physics 1","Mechanics 1","Engineering Chemistry", "Computer Technology", "Production technology", "Technical English", "Engineering History"]}   
-        - {name: "url", label: "File URL", widget: "string", hint: "Hint: Google Drive link to the file."}
+        - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
+        - {name: "description", label: "File Description (optional)", widget: "string", required: "false",  hint: "Ex. Introduction into fluids, Signal Types, etc...."}

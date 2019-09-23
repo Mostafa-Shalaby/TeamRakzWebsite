@@ -1,8 +1,10 @@
 // Initializes Navigation Menu
 $(document).ready(function () {
-    $('.loader').fadeOut('slow');
+    // Preloader Animation Logic 
+    $('.loader').delay(250).fadeOut(250);
+    // Sets Up Navigation Menu
     $("#respMenu").aceResponsiveMenu({resizeWidth: "780" });
-    //Navigation Menu Background Changer
+    // Navigation Menu Background Changer
     window.addEventListener('scroll', function() {
         if (this.window.scrollY > 15) {
             this.document.querySelector('nav').style.backgroundColor= 'rgba(51,51,51,1)';
@@ -22,6 +24,12 @@ $(document).ready(function () {
         );
       }
     });
+    // Accordian Page Items
+    function toggleAccordion(){
+      this.classList.toggle('active');
+      this.nextElementSibling.classList.toggle('active');
+    }
+    document.querySelectorAll(".accordion-item > a").forEach(item => item.addEventListener('click', toggleAccordion));
 });
 // netlifyIdentity Login 
 if (window.netlifyIdentity) {

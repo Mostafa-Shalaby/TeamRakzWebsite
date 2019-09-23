@@ -30,6 +30,12 @@ h3{
 	text-align: center;
 	margin-bottom: 5px;
 }
+h4{
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 2px;
+}
 p{
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -76,10 +82,17 @@ a {text-decoration: none;}
 	border-radius: 5px;
 	text-transform: uppercase;
 	transition: color, background-color, 0.35s ease-in-out;
+	-webkit-transition: color, background-color, 0.35s ease-in-out;
+	-moz-transition: color, background-color, 0.35s ease-in-out;
+	-ms-transition: color, background-color, 0.35s ease-in-out;
 }
 .btn-light, .btn:hover{
 	background-color: $primary-color;
 	color: $dark-color;
+}
+.btn-light:hover{
+	background-color: $dark-color;
+	color: $primary-color;
 }
 
 /* Splash Cover Styling */
@@ -94,27 +107,133 @@ a {text-decoration: none;}
 	justify-content: center;
 	padding: 200px 100px;
 }
-
 .showcase > h2 {	
-	margin: 30px 0;
+	margin: 10px 0;
 	align-self: center;
 	justify-self: center;
 	text-transform: uppercase;
 	font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 700;
 	font-size: 45px;
-	line-height: 45px ;
+	line-height: 45px;
 	text-shadow: 0 0 3px #000000;
 }
-
+.showcase > h3{
+	margin: 10px 0;
+	align-self: center;
+	justify-self: center;
+	text-transform: uppercase;
+	font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+	text-shadow: 0 0 3px #000000;
+}
 .showcase > img{
 	height: 120px;
+	margin-bottom: 10px;
 }
-
 .showcase .btn{
 	font-size: 18px;
 	padding: 20px 40px;
+	margin-top: 10px;
 	box-shadow: 0 0 3px #000000;
+}
+
+/* Individual Page Showcase */
+#prepartory-showcase{
+	background-image: url('../img/Covers/Prepartory1.jpg');
+	padding: 150px 100px;
+}
+#contacts-showcase{
+	background-image: url('../img/Covers/Contact1.jpg');
+}
+
+/* File Item accordion */
+.accordion-item > a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 45px 15px 15px;
+  color: $grey-color;
+  font-size: 18px;
+  font-weight: 400;
+	border-bottom: 1px solid #e5e5e5;
+	transition: color 0.35s ease-in-out;
+}
+.accordion-item > a:hover,
+.accordion-item > a:hover::after {
+  cursor: pointer;
+  color: $primary-color;
+}
+.accordion-item > a.active {
+  color: $primary-color;
+  border-bottom: 1px solid $primary-color;
+}
+.accordion-item > a::after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  content: '\f055';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: $grey-color;
+	text-align: center;
+	transition: color 0.35s ease-in-out;
+}
+.accordion-item > a.active::after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: '\f056';
+  color: $primary-color;
+}
+.accordion-item > .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  transition: all, 0.35s ease-in-out;
+  -webkit-transition: all, 0.35s ease-in-out;
+  -moz-transition: all, 0.35s ease-in-out;
+  -ms-transition: all, 0.35s ease-in-out;
+}
+.accordion-item > .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+}
+.accordion-item > .content h2{
+	text-align: left;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+/* File Items Styling */
+.file-item{
+	flex: 1;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	text-align: left;
+	padding: 5px 0px;
+	border-bottom: none;
+}
+.file-item:last-child{
+	border-bottom: 1px solid #e5e5e5;
+}
+.file-item > h4{
+	font-weight: 500;
+	text-align: left;
+}
+.file-item > p{
+	margin-left: 8px;
+	color: $grey-color;
+}
+.file-item > a{
+	margin-left: auto;
 }
 
 /* Universal Page Footer */
@@ -123,7 +242,7 @@ footer{
 	align-items: center;
 	justify-content: center;
 	background: $dark-color;
-	border-top: 3px solid $primary-color;
+	border-top: 2px solid $primary-color;
 	padding: 0.5rem 1rem;
 }
 footer p{
@@ -143,11 +262,38 @@ footer p{
 	.showcase > h2 {
 		margin: 15px 0;
 		font-size: 30px;
-		line-height: 30px ;
+		line-height: 30px;
+	}
+	.showcase > h3 {
+		margin: 5px 0;
+		font-size: 20px;
+		line-height: 20px;
 	}
 	.showcase > img {
 		height: 90px;
 	}
-/* Footer Mobile Styling */
-	footer {flex-direction: column;}
+	/* Individual Page Showcase */
+	#prepartory-showcase{
+		padding: 100px 50px;
+	}
+	/* Accordion items Mobile Styling*/
+	.accordion-item > a:hover,
+	.accordion-item > a:hover::after {
+		color: $grey-color;
+	}
+	.accordion-item > a.active,
+	.accordion-item > a.active::after {
+		color: $primary-color;
+	}
+
+	/* File Items Mobile Styling */
+	.file-item{ flex-direction: column; }
+	.file-item > a{
+		margin: 5px 0;
+		text-align: center;
+		width: 100%
+	}
+	
+	/* Footer Mobile Styling */
+	footer { flex-direction: column; }
 }
