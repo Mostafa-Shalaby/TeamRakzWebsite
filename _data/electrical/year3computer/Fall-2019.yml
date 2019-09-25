@@ -1,7 +1,12 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/25
+  - description: Introduction and Definition of Computers
+    publishdate: 2019/09/25
     subject: Computer Architecture
     type: Lecture
-    url: https://drive.google.com/open?id=1OaPn4SSzm4NIAgoXuPMUZhCePPfRWQbE
-    description: Introduction and Definition of Computers
+    url: 'https://drive.google.com/open?id=1OaPn4SSzm4NIAgoXuPMUZhCePPfRWQbE'
+  - description: ''
+    publishdate: 2019/09/25
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1fFm9KuJYSrnJBf-KwzpXRjZOvc4J-t_F/view'
