@@ -1,0 +1,20 @@
+---
+layout: default
+title: Electrical Year 2
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="electrical-general-showcase" class="showcase">
+    <h2>Electrical Year 2</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.electrical.year2.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Engineering Mathematics 3' %} 
+    {% include query-subject.html subject='Automatic Control Systems' %} 
+    {% include query-subject.html subject='Electromagnetic Fields' %} 
+    {% include query-subject.html subject='Electronic Engineering' %} 
+    {% include query-subject.html subject='Industrial Safety' %} 
+    {% include query-subject.html subject='Microprocessor Systems' %} 
+    {% include query-subject.html subject='Database Management Systems' %} 
+  </section>

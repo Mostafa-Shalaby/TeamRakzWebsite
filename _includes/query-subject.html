@@ -1,0 +1,38 @@
+<!-- Subject Layout -->
+  <div class="accordion-item">
+    <a>{{include.subject}}</a>
+    <div class="content">
+      <div class="lecture-items">{% assign lecturefiles = source | where: 'type', 'Lecture' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if lecturefiles.size !=  0 %}<h2>Lectures:</h2>{% endif %}
+        {% for file in lecturefiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Lecture {{count}}:</h4>
+          <p>{{ file.description }}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
+      <div class="section-items">{% assign sectionfiles = source | where: 'type', 'Section' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if sectionfiles.size !=  0 %}<h2>Sections:</h2>{% endif %}
+        {% for file in sectionfiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Section {{count}}:</h4>
+          <p>{{ file.description }}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
+      <div class="book-items">{% assign bookfiles = source | where: 'type', 'Book' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if bookfiles.size !=  0 %}<h2>Books:</h2>{% endif %}
+        {% for file in bookfiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Book {{count}}:</h4>
+          <p>{{ file.description }}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
+      <div class="exercise-items">{% assign exercisefiles = source | where: 'type', 'Exercise' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if exercisefiles.size !=  0 %}<h2>Exercises:</h2>{% endif %}
+        {% for file in exercisefiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Exercise {{count}}:</h4>
+          <p>{{ file.description }}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
+    </div>
+  </div>

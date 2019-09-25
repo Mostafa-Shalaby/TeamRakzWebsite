@@ -1,0 +1,14 @@
+<!-- Pulls Data Related to Week Compilations -->
+  <div class="accordion-item">
+    <a>Weekly Lecture Compilation</a>
+    <div class="content">
+      <div class="week-items">{% assign weekfiles = source | where: 'subject', 'Week Compilation' %}{% assign count = 0 %}
+        {% if weekfiles.size !=  0 %}<h2>Weeks:</h2>{% endif %}
+        {% for file in weekfiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Week {{count}}:</h4>
+          <p>{{file.description}}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
+    </div>
+  </div>

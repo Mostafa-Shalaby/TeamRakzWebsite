@@ -105,7 +105,7 @@ a {text-decoration: none;}
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 200px 100px;
+	padding: 150px 100px;
 }
 .showcase > h2 {	
 	margin: 10px 0;
@@ -141,9 +141,17 @@ a {text-decoration: none;}
 }
 
 /* Individual Page Showcase */
+#main-showcase{
+	padding: 200px 100px;
+}
 #prepartory-showcase{
 	background-image: url('../img/Covers/Prepartory1.jpg');
-	padding: 150px 100px;
+}
+#electrical-general-showcase{
+	background-image: url('../img/Covers/Electrical1.jpg')
+}
+#electrical-computer-showcase{
+	background-image: url('../img/Covers/Computer1.jpg')
 }
 #contacts-showcase{
 	background-image: url('../img/Covers/Contact1.jpg');
@@ -273,7 +281,7 @@ footer p{
 		height: 90px;
 	}
 	/* Individual Page Showcase */
-	#prepartory-showcase{
+	#main-showcase{
 		padding: 100px 50px;
 	}
 	/* Accordion items Mobile Styling*/
