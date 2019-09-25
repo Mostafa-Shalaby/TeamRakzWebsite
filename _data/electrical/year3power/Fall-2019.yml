@@ -1,7 +1,20 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/23
-    subject: Other
-    type: Other
-    url: none
-    description: Holder
+  - description: Introduction into Transmission & Distribution
+    publishdate: 2019/09/25
+    subject: Transmission and Distribution
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1f2yG6Kfb5LMWpfpRtIE4J1TKvXugN9Hy/view?usp=drivesdk
+  - description: 'Introduction and some definitions '
+    publishdate: 2019/09/25
+    subject: Electrical Machines 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1fEAxFt-hu3fXGOS9UelZKZTzjr-bN9iP/view?usp=drivesdk
+  - description: 'Theory of probability '
+    publishdate: 2019/09/25
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1fFm9KuJYSrnJBf-KwzpXRjZOvc4J-t_F/view?usp=drivesdk
