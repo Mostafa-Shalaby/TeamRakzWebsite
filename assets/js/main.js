@@ -2,6 +2,12 @@
 $(document).ready(function () {
     // Preloader Animation Logic 
     $('.loader').delay(250).fadeOut(250);
+    // Forces preloader closing on older devices
+    window.addEventListener('load', function(){
+      window.setInterval(function(){
+        this.document.querySelector('.loader').style.display= 'none';
+      },500)
+    })
     // Sets Up Navigation Menu
     $("#respMenu").aceResponsiveMenu({resizeWidth: "780" });
     // Navigation Menu Background Changer
