@@ -1,0 +1,19 @@
+---
+layout: default
+title: Civil Year 2
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="civil-general2-showcase" class="showcase">
+    <h2>Civil Year 2</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.civil.year2.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Analysis of Constructions 2' %} 
+    {% include query-subject.html subject='Design of Reinforced Concrete Structures 1' %} 
+    {% include query-subject.html subject='Properties and Testing of Materials 2' %} 
+    {% include query-subject.html subject='Fluid Mechanics' %} 
+    {% include query-subject.html subject='Hydrology' %} 
+    {% include query-subject.html subject='Applied Statistics' %}
+  </section>

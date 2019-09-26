@@ -1,0 +1,19 @@
+---
+layout: default
+title: Civil Year 3
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="civil-general3-showcase" class="showcase">
+    <h2>Civil Year 3</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.civil.year3.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Construction Theory' %} 
+    {% include query-subject.html subject='Design of Reinforced Concrete Structures 2' %} 
+    {% include query-subject.html subject='Design of Metal Structures' %} 
+    {% include query-subject.html subject='Soil Mechanics 2' %} 
+    {% include query-subject.html subject='Transportation and Traffic Engineering' %} 
+    {% include query-subject.html subject='Hydraulics' %}
+  </section>
