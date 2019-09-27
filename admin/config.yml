@@ -233,7 +233,7 @@ collections:
         widget: "list"
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
-        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Mechanical Design", "Hydraulic Machines", "Automatic Control", "Thermal Power Stations 1",  "Combustion theory", "Management and Marketing", "Electrical Power Engineering", "Vibration Theory", "Internal Combustion Machines 1", "Gas Dynamics", "Environmental Studies"]}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Mechanical Design", "Hydraulic Machines", "Automatic Control", "Thermal Power Stations 1",  "Combustion theory", "Introduction to Quality Systems", "Management and Marketing", "Electrical Power Engineering", "Vibration Theory", "Internal Combustion Machines 1", "Gas Dynamics", "Environmental Studies"]}
         - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
