@@ -1,0 +1,19 @@
+---
+layout: default
+title: Mechanical Year 1
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="mechanical-general1-showcase" class="showcase">
+    <h2>Mechanical Year 1</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.mechanical.year1.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Engineering Mathematics 2' %} 
+    {% include query-subject.html subject='Drawing Machines' %} 
+    {% include query-subject.html subject='Metals' %} 
+    {% include query-subject.html subject='Production Engineering 1' %} 
+    {% include query-subject.html subject='Structural Theory' %} 
+    {% include query-subject.html subject='Electrical and Electronic Engineering' %} 
+  </section>

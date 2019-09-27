@@ -1,0 +1,20 @@
+---
+layout: default
+title: Mechanical Year 3
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="mechanical-production3-showcase" class="showcase">
+    <h2>Mechanical Year 3</h2>
+    <h3>Production and Design Division</h3>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.mechanical.year3production.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Machinery Design' %} 
+    {% include query-subject.html subject='Measurement Devices' %} 
+    {% include query-subject.html subject='Energy Installations' %} 
+    {% include query-subject.html subject='Automatic Control' %} 
+    {% include query-subject.html subject='Metal Forming Theory and Technology 1' %} 
+    {% include query-subject.html subject='Legislation and contracts' %} 
+  </section>

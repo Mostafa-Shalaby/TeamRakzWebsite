@@ -1,0 +1,19 @@
+---
+layout: default
+title: Mechanical Year 3
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="mechanical-power3-showcase" class="showcase">
+    <h2>Mechanical Year 3</h2>
+    <h3>Mechanical Power Division</h3>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.mechanical.year3power.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Mechanical Design' %} 
+    {% include query-subject.html subject='Hydraulic Machines' %} 
+    {% include query-subject.html subject='Automatic Control' %} 
+    {% include query-subject.html subject='Thermal Power Stations 1' %} 
+    {% include query-subject.html subject='Combustion theory' %}  
+  </section>

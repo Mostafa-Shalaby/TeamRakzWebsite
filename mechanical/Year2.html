@@ -1,0 +1,20 @@
+---
+layout: default
+title: Mechanical Year 2
+---
+<!-- Main Page Details -->
+  <!-- Showcase/Cover Image Section -->
+  <section id="mechanical-general2-showcase" class="showcase">
+    <h2>Mechanical Year 2</h2>
+    <h3>2019-2020 Term 1</h3>
+  </section>
+  <section class="container">{% assign source = site.data.mechanical.year2.Fall-2019.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Theory of Machines' %} 
+    {% include query-subject.html subject='Machinery Design' %} 
+    {% include query-subject.html subject='Electrical Engineering' %} 
+    {% include query-subject.html subject='Stress Analysis' %} 
+    {% include query-subject.html subject='Thermodynamics 2' %} 
+    {% include query-subject.html subject='Fluid Mechanics' %} 
+    {% include query-subject.html subject='Industrial Safety' %} 
+  </section>

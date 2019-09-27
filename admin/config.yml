@@ -180,3 +180,79 @@ collections:
         - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
+  - label: "Mechanical - Year 1"
+    name: "mechanicalyear1"
+    folder: "_data/mechanical/year1/"
+    create: false
+    slug: "{{slug}}"
+    extension: "yml"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter.
+      - {name: "title", label: "Collection Title:", widget: "string", hint: "Fall is Term 1, Winter is Term 2"}
+      - label: "Files"
+        name: "files"
+        widget: "list"
+        fields: 
+        - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 2", "Drawing Machines", "Metals", "Production Engineering 1", "Structural Theory", "Electrical and Electronic Engineering", "Materials Testing and Engineering", "Mechanics 2", "Thermodynamics 1", "Engineering Physics 2", "Writing Technical Reports"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
+        - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
+  - label: "Mechanical - Year 2"
+    name: "mechanicalyear2"
+    folder: "_data/mechanical/year2/"
+    create: false
+    slug: "{{slug}}"
+    extension: "yml"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter.
+      - {name: "title", label: "Collection Title:", widget: "string", hint: "Fall is Term 1, Winter is Term 2"}
+      - label: "Files"
+        name: "files"
+        widget: "list"
+        fields: 
+        - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Theory of Machines", "Machinery Design", "Electrical Engineering", "Stress Analysis", "Thermodynamics 2", "Fluid Mechanics", "Industrial Safety", "Production Engineering 2", "Heat Transfer and Mass", "Measurements", "Engineering Economics"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
+        - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
+  - label: "Mechanical - Year 3 Power"
+    name: "mechanicalyear3power"
+    folder: "_data/mechanical/year3power/"
+    create: false
+    slug: "{{slug}}"
+    extension: "yml"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter.
+      - {name: "title", label: "Collection Title:", widget: "string", hint: "Fall is Term 1, Winter is Term 2"}
+      - label: "Files"
+        name: "files"
+        widget: "list"
+        fields: 
+        - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Mechanical Design", "Hydraulic Machines", "Automatic Control", "Thermal Power Stations 1",  "Combustion theory", "Management and Marketing", "Electrical Power Engineering", "Vibration Theory", "Internal Combustion Machines 1", "Gas Dynamics", "Environmental Studies"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
+        - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
+  - label: "Mechanical - Year 3 Production"
+    name: "mechanicalyear3production"
+    folder: "_data/mechanical/year3production/"
+    create: false
+    slug: "{{slug}}"
+    extension: "yml"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter.
+      - {name: "title", label: "Collection Title:", widget: "string", hint: "Fall is Term 1, Winter is Term 2"}
+      - label: "Files"
+        name: "files"
+        widget: "list"
+        fields: 
+        - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Machinery Design", "Measurement Devices", "Energy Installations", "Automatic Control", "Metal Forming Theory and Technology 1", "Legislation and contracts", "Metal Forming Theory and Technology 2", "Vibration Theory", "Machining & Forming Machines", "Environmental Studies"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
+        - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
