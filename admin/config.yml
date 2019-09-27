@@ -176,7 +176,7 @@ collections:
         widget: "list"
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
-        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Construction Theory", "Design of Reinforced Concrete Structures 2", "Design of Metal Structures", "Soil Mechanics 2", "Transportation and Traffic Engineering", "Hydraulics", "Project Management and Construction", "Foundation Engineering 1", "Irrigation Design 1",]}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Analysis of Constructions 3", "Design of Reinforced Concrete Structures 2", "Design of Metal Structures", "Soil Mechanics 2", "Transportation and Traffic Engineering", "Hydraulics", "Project Management and Construction", "Foundation Engineering 1", "Irrigation Design 1",]}
         - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
