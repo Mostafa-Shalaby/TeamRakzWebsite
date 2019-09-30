@@ -10,3 +10,45 @@ files:
     subject: Engineering Mathematics 4
     type: Lecture
     url: 'https://drive.google.com/file/d/1fFm9KuJYSrnJBf-KwzpXRjZOvc4J-t_F/view'
+  - description: 'Modern Control Engineering, (5th Edition) By Katsuhiko Ogata'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/16b1oOoknRpku7vRxlHCjB23EPpZF47SF/view'
+  - description: 'Solution Manual - Modern Control Engineering, (5th Edition)'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/17-hZyK25WfBftC7Lr6SRNqqN0Lligphr/view'
+  - description: >-
+      Modern Control Systems, (12th Edition) By Richard C. Dorf and Robert H.
+      Bishop
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/174SJjBah8YpX9S22wzd9hjflXNGrRAyq/view'
+  - description: 'Solution Manual - Modern Control Systems, (12th Edition)'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/16mKx_vNUTcJMpH9LxTxhqit4j7XsDihr/view'
+  - description: 'Control Systems Engineering, (6th Edition) By Norman S. Nise'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/16uCbETICsmqAdKHyyYdkBQLaj-Iephq4/view'
+  - description: 'Solution Manual - Control Systems Engineering, (6th Edition)'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Book
+    url: 'https://drive.google.com/file/d/175qF8TqjlWoFyv45iLew8kOg4ceZjHn7/view'
+  - description: 'Review of control concepts, State-space Representations'
+    publishdate: 2019/09/30
+    subject: Automatic Control Systems 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1BeyI1Iji32MKbjKYUcbM8JfZWEdCqqdm'
+  - description: Introduction to Algorithms
+    publishdate: 2019/09/30
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1RyhFPW7OFG2QZ9PyMlS_I38ASpTf97u-'
