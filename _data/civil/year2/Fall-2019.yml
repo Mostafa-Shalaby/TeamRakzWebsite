@@ -1,7 +1,47 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/23
+  - description: Holder
+    publishdate: 2019/09/23
     subject: Other
     type: Other
     url: none
-    description: Holder
+  - publishdate: 2019/10/04
+    subject: Analysis of Constructions 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1IQgQlJBzhGkQQRqdUuByRN5ee_1fcnN-'
+  - publishdate: 2019/10/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=191DXDiGmqgBSj-KSo2NwTngUi6dSMorU'
+  - publishdate: 2019/10/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1EovCWHgtYZ_aLfFr-kYOl9GRPIDOem-t'
+  - publishdate: 2019/10/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Section
+    url: 'https://drive.google.com/open?id=1HbqpYOIvcTo4FJNXXP7GdY0pXGu8AgQC'
+  - publishdate: 2019/10/04
+    subject: Hydrology
+    type: Lecture
+    url: 'https://drive.google.com/open?id=16xGQXRWtTZ4gwHKxNGIISBhUEbtfIsgS'
+  - publishdate: 2019/10/04
+    subject: Hydrology
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1CH5W3hQKWudtmyebnI8qIXHmdSgNQiK7'
+  - publishdate: 2019/10/04
+    subject: Properties and Testing of Materials 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=19zldkYSwi-jqGTsFCVfun6VZTgNzp77n'
+  - publishdate: 2019/10/04
+    subject: Properties and Testing of Materials 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1Fm_KsriY7G3vbeKZVOC8CsMaUrPuQQ7t'
+  - publishdate: 2019/10/04
+    subject: Properties and Testing of Materials 2
+    type: Section
+    url: 'https://drive.google.com/open?id=1HWFcgA7J9kXLDSdWd330eQwhGv5WZKQU'
+  - publishdate: 2019/10/04
+    subject: Fluid Mechanics
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1F_qhy4RcpSg0YsYExPAOVS6H-2SxYLCd'
