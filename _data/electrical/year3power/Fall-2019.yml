@@ -30,3 +30,8 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1hc37Oxp97-ij9DynIMWPgadGb50I7OIO/view?usp=drivesdk
+  - description: Theory and Problems of Statistics (3rd Edition)
+    publishdate: 2019/10/04
+    subject: Engineering Mathematics 4
+    type: Book
+    url: 'https://drive.google.com/file/d/18k2MN0BnyJwbiocvBKMe0CxJquCpvCHC/view'
