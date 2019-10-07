@@ -1,7 +1,32 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/23
-    subject: Other
-    type: Other
-    url: none
-    description: Holder
+  - description: Lecture_1 Electromagnetic Fileds
+    publishdate: 2019/10/07
+    subject: Electromagnetic Fields
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1NJ_2P4fIyPQ-smrkidpEIdcuIY2EtHMW'
+  - description: Lecture_1 Electronics
+    publishdate: 2019/10/07
+    subject: Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1jQKcibYCYxt607kM_v7uL7SNadqSC8mH'
+  - description: Lecture_1 Engineering Mathematics 3
+    publishdate: 2019/10/07
+    subject: Engineering Mathematics 3
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10T--itYv8bjMH9jY-T076fyx4PH3O3oZ'
+  - description: Section_1 Database Management Systems
+    publishdate: 2019/10/07
+    subject: Database Management Systems
+    type: Section
+    url: 'https://drive.google.com/open?id=10T54HIKWYn3jj0IT2ELkv8zKrKbamP_u'
+  - description: Lecture_1 Database Management Systems
+    publishdate: 2019/10/07
+    subject: Database Management Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10Wczt1fbKY670H44jvag2ovx9R3_YRvE'
+  - description: Sheet_1 Electromagnetic Fileds
+    publishdate: 2019/10/07
+    subject: Electromagnetic Fields
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1Yy95bIrjjL8hYU-4wtMxz92AjKNFmDiA'
