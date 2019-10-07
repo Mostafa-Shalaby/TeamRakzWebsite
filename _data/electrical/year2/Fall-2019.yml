@@ -9,7 +9,7 @@ files:
     publishdate: 2019/10/07
     subject: Electronic Engineering
     type: Lecture
-    url: 'https://drive.google.com/open?id=1jQKcibYCYxt607kM_v7uL7SNadqSC8mH'
+    url: 'https://drive.google.com/open?id=10geR9PYaooS_SetqfXg47O8ci2WQujDd'
   - description: Lecture_1 Engineering Mathematics 3
     publishdate: 2019/10/07
     subject: Engineering Mathematics 3
@@ -30,3 +30,8 @@ files:
     subject: Electromagnetic Fields
     type: Exercise
     url: 'https://drive.google.com/open?id=1Yy95bIrjjL8hYU-4wtMxz92AjKNFmDiA'
+  - description: Lecture_2 Electronics
+    publishdate: 2019/10/08
+    subject: Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10gnXMFlREQFUh04c2LJm_xOTudIlKyon'
