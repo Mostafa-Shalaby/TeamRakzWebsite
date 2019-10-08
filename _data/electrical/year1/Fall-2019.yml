@@ -1,7 +1,87 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/23
-    subject: Other
-    type: Other
-    url: none
-    description: Holder
+  - description: Lecture 1
+    publishdate: 2019/10/08
+    subject: Data Structures and Algorithms
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YhqYOa_tddDT-vpnz8jnjfdrwCtswRLr/view'
+  - description: Lecture 2
+    publishdate: 2019/10/08
+    subject: Data Structures and Algorithms
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YncSNPkJ-dAs5R6lXTx9QmC6bfADYLEO/view'
+  - description: 'Electrical Circuits ------> Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Electrical Circuits
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1ZQzhep4L3o17nxIfBk_EanjDDFYCxctO/view'
+  - description: 'Electrical Circuits -----> Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Electrical Circuits
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1ZLhymu-_zgHoP4mx1bLfcEURnkJSQ6E6/view'
+  - description: 'Electronics Circuits -------> Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Electrical Circuits
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YJ5QU45_gAfuSLeufWbUfVWNMcOB1qbk/view'
+  - description: Electronics Circuits ---------> Lecture2
+    publishdate: 2019/10/08
+    subject: Electrical Circuits
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YLqYu7fQdyjqAjqIj71wvrkvoQjxVvOs/view'
+  - description: 'Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Engineering Mathematics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YFuTauOrkhNfUjpQIw3a_psLwVbq5Sqh/view'
+  - description: 'Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Engineering Mathematics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1ZWHolOfGAANQhgFrG2rcHGB9j_TpaZSz/view'
+  - description: 'Section 1:'
+    publishdate: 2019/10/08
+    subject: Engineering Mathematics 2
+    type: Section
+    url: 'https://drive.google.com/file/d/1Z-DNsKUDy7kQ_RH-21K-pUV1qHXaOdrY/view'
+  - description: 'Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Mechanical Power Engineering
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1Yc3Cj8fRnCR98oR0qfSJm5NDgnZe6Fxg/view'
+  - description: 'Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Mechanical Power Engineering
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1Yg4xlQwHFDd3BzPH4IpJYbuWdwSabqZ4/view'
+  - description: 'Modern Physics ---> Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YIIBPb0yHQBH38ckmKocAlj0OOjeNyCj/view'
+  - description: 'Modern Physics -------> Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1ZC4Jw9beKAPRu8ADglfbXY8MYchoBG5n/view'
+  - description: 'Waves ------ Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YUbm5SakyTvdmEBQdfSHvUXKMvFd4V8f/view'
+  - description: 'Waves --------> Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YY6uNwBfuAEyJA8pA6Xfe5GBDklc2IRI/view'
+  - description: 'Lecture 1:'
+    publishdate: 2019/10/08
+    subject: Civil Engineering
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YHGNekrDsiFYgYzW5-TpM4oMy8QPjjwJ/view'
+  - description: 'Lecture 2:'
+    publishdate: 2019/10/08
+    subject: Civil Engineering
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1YskMhXn6528SyPebJY1eyqx6frq0j4q2/view'
