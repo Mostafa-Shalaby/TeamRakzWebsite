@@ -33,7 +33,8 @@ files:
     subject: Properties and Testing of Materials 2
     type: Lecture
     url: 'https://drive.google.com/open?id=19zldkYSwi-jqGTsFCVfun6VZTgNzp77n'
-  - publishdate: 2019/10/04
+  - description: سكاشن م. محمد عادل
+    publishdate: 2019/10/04
     subject: Properties and Testing of Materials 2
     type: Lecture
     url: 'https://drive.google.com/open?id=1Fm_KsriY7G3vbeKZVOC8CsMaUrPuQQ7t'
@@ -49,3 +50,9 @@ files:
     subject: Analysis of Constructions 2
     type: Lecture
     url: 'https://drive.google.com/open?id=1MxbBDebT2shKSqdlylECjGAIM8NGd0_y'
+  - description: سكاشن م. نجاة زلهف
+    publishdate: 2019/10/09
+    subject: Properties and Testing of Materials 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1OXJiUfTI0mlx-56WpDE9KjIlEr-RIlVk/view?usp=drivesdk
