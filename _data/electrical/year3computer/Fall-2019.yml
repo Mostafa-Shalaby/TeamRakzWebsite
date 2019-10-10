@@ -78,3 +78,18 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1-ioZFEVQedIvibHZL6dKwyi6wx2krQGK/view?usp=drivesdk
+  - publishdate: 2019/10/11
+    subject: Computer Architecture
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/19Y0IoMAOLlu99RNi9pZNAYsef4QTajN_/view?usp=drivesdk
+  - publishdate: 2019/10/11
+    subject: Computer Architecture
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1JHQ2B3cZ_kMqPCqAn61QVcgGepI6lJ7H/view?usp=drivesdk
+  - publishdate: 2019/10/11
+    subject: Automatic Control Systems 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1yhe6ZGtnWA122-rMK5v8aA2NVXF7V7Z3/view?usp=drivesdk
