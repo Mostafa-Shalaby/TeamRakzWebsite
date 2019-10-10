@@ -62,3 +62,21 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1PTO222rGqBAKA7K7CV4Byr8ypdBGCrot/view?usp=drivesdk
+  - description: ورق م. سيد كمال
+    publishdate: 2019/10/10
+    subject: Applied Statistics
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1Pd6dNYsIZdQViI_eaF5HF4cq73JngG8v/view?usp=drivesdk
+  - description: أسئلة الشيت الأول
+    publishdate: 2019/10/10
+    subject: Applied Statistics
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1PieFFzL3VNhRga-Y94duPWcs-PjFOuMX/view?usp=drivesdk
+  - description: حلول الشيت الأول م. سيد كمال
+    publishdate: 2019/10/10
+    subject: Applied Statistics
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1Pn-i1tt0B2zpxDw6LiWW1w9yN-JdlssV/view?usp=drivesdk
