@@ -1,7 +1,32 @@
 title: Fall 2019
 files:
-  - publishdate: 2019/09/23
+  - description: Holder
+    publishdate: 2019/09/23
     subject: Other
     type: Other
     url: none
-    description: Holder
+  - description: 'سكاشن '
+    publishdate: 2019/10/11
+    subject: Electrical Engineering
+    type: Section
+    url: 'https://drive.google.com/folderview?id=10mJYpmWnwsKvzUx0OtCs9G7IO2bsljTN'
+  - description: د.ابراهيم ماهر
+    publishdate: 2019/10/11
+    subject: Machinery Design
+    type: Lecture
+    url: 'https://drive.google.com/folderview?id=10NfjuCx4UG1mNsXk2fm_Y0rm4h6qlfL_'
+  - description: د.رشدي
+    publishdate: 2019/10/11
+    subject: Theory of Machines
+    type: Lecture
+    url: 'https://drive.google.com/folderview?id=10Xv0wvc-528iTC6SMwe6SnExMPwbRwO_'
+  - description: د.ماهر ابو السعود
+    publishdate: 2019/10/11
+    subject: Thermodynamics 2
+    type: Lecture
+    url: 'https://drive.google.com/folderview?id=105YaKHsJuWtBsT_iv0R1phrnTE4v_moz'
+  - description: 'د.فضل '
+    publishdate: 2019/10/11
+    subject: Fluid Mechanics
+    type: Lecture
+    url: 'https://drive.google.com/folderview?id=118-Ujx8UPohPRq9o11fxibQ5G3xMmBd7'
