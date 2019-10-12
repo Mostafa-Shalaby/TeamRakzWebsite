@@ -85,3 +85,21 @@ files:
     subject: Civil Engineering
     type: Lecture
     url: 'https://drive.google.com/file/d/1YskMhXn6528SyPebJY1eyqx6frq0j4q2/view'
+  - publishdate: 2019/10/12
+    subject: Engineering Mathematics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1bliL5lZMGKuMRRPfUBPCqyX0tkH_Q_TI/view'
+  - publishdate: 2019/10/12
+    subject: Mechanical Power Engineering
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1bpxe-PsXUYDk9e878PHgzhdQg4YFz7Go/view'
+  - description: Modern Physics
+    publishdate: 2019/10/12
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1bsC53tY6lDNwll4zY46iuSpz_MTkN0yV/view'
+  - description: Waves
+    publishdate: 2019/10/12
+    subject: Engineering Physics 2
+    type: Lecture
+    url: 'https://drive.google.com/file/d/1c1B3PpWzt2onYsCPS5vOA5j5FroaKN2k/view'
