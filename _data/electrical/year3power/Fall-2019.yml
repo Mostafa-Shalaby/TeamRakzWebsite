@@ -35,3 +35,77 @@ files:
     subject: Engineering Mathematics 4
     type: Book
     url: 'https://drive.google.com/file/d/18k2MN0BnyJwbiocvBKMe0CxJquCpvCHC/view'
+  - publishdate: 2019/10/12
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1_LCUp7g48LJhMFLL2puAtGCcg-qbvjEx/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Transmission and Distribution
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1BsGWeiuZ3N0zQ1baAPGsZaxsdsNUBo19/view?usp=drivesdk
+  - description: 'Week 1&2 compilation '
+    publishdate: 2019/10/12
+    subject: Week Compilation
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/155PaDLzQy6zIlFcUvfGczJwN0QXmsq1V/view?usp=drivesdk
+  - description: Lecture 1&2
+    publishdate: 2019/10/12
+    subject: Power Electronics
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/155PaDLzQy6zIlFcUvfGczJwN0QXmsq1V/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Transmission and Distribution
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/15XrGVRqQaWQMwGCEnG7L5wvnGmcLmCMO/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Automatic Control
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1JAtexHEflntI4A1okOSLi4WBET-WKabR/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Automatic Control
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/157xhPPXcQ6leY8HrQaTBHgrOiPE9aXzy/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1vrWsUkb4ggzLhkoAemHGGbiJ_n5QspSr/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/13qiqWHi4GytWySzTWoBjmFVLTwKPTooB/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Automatic Control
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1nNiH-sxZPLZeju6vJtIhojGFrQADAa44/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Transmission and Distribution
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1-9uqqn7EUsGArU6NSXfJ34Hd5hX07m7Y/view?usp=drivesdk
+  - publishdate: 2019/10/12
+    subject: Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/151S7fsRbMBpKqTLbL94UKNZ48Icg1mOB/view?usp=drivesdk
+  - description: Section 2 (التوصيل العملى)
+    publishdate: 2019/10/12
+    subject: Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1583-AnbCzOHDLE_HLzR75x2v5oGGZEdO/view?usp=drivesdk
+  - description: Lecture 2
+    publishdate: 2019/10/12
+    subject: Electrical Machines 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1r7gQWFgiKprhl2DQvEbldzB61JlJ3uYD/view?usp=drivesdk
