@@ -46,12 +46,6 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/155PaDLzQy6zIlFcUvfGczJwN0QXmsq1V/view?usp=drivesdk
-  - description: Lecture 2&3
-    publishdate: 2019/10/12
-    subject: Power Electronics
-    type: Lecture
-    url: >-
-      https://drive.google.com/file/d/155PaDLzQy6zIlFcUvfGczJwN0QXmsq1V/view?usp=drivesdk
   - publishdate: 2019/10/12
     subject: Transmission and Distribution
     type: Section
@@ -104,3 +98,9 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1r7gQWFgiKprhl2DQvEbldzB61JlJ3uYD/view?usp=drivesdk
+  - description: Lecture 2&3
+    publishdate: 2019/10/12
+    subject: Power Electronics
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1REQ2XsNv4EIyDWZyd3YxqJooLXngtWMt/view?usp=drivesdk
