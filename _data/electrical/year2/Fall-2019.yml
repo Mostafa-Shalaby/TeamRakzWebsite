@@ -50,7 +50,8 @@ files:
     subject: Engineering Mathematics 3
     type: Lecture
     url: 'https://drive.google.com/open?id=10xc_PeSj2jYC5Ywxok1rETMBrAiABlig'
-  - publishdate: 2019/10/15
+  - description: Electromagnetic Fields
+    publishdate: 2019/10/15
     subject: Electromagnetic Fields
     type: Book
     url: 'https://drive.google.com/open?id=1nRlYqkmDEtTKwXjvq-usYEzLt00FkgAt'
