@@ -1,23 +1,27 @@
 title: week1
 files:
-  - description: struture 1
+  - description: lec struture 1
     publishdate: 2019/09/23
     subject: Week Compilation
     type: Lecture
     url: 'https://drive.google.com/open?id=1I4bvZDeWCafvDO2sDlFZsQcxnUyUm_WC'
-  - publishdate: 2019/10/17
+  - description: lec Electrical 1
+    publishdate: 2019/10/17
     subject: Week Compilation
     type: Lecture
     url: 'https://drive.google.com/open?id=1Hy22KKyEAsDHVwBWwuQbEMKT4hXCahRu'
-  - publishdate: 2019/10/17
+  - description: lec math 1
+    publishdate: 2019/10/17
     subject: Week Compilation
     type: Lecture
     url: 'https://drive.google.com/open?id=1I9w5LdFyRt1qoxgwhlhSyx5gj0nF9F0c'
-  - publishdate: 2019/10/17
+  - description: sec struture 1
+    publishdate: 2019/10/17
     subject: Week Compilation
     type: Section
     url: 'https://drive.google.com/open?id=1HoAPnoy3Wxty7T90SLkVF14bTJIafPcw'
-  - publishdate: 2019/10/17
+  - description: sec math 1
+    publishdate: 2019/10/17
     subject: Week Compilation
     type: Section
     url: 'https://drive.google.com/open?id=1Hq1hnJp6hO3CJwjRcaVJCTH6H70_fv9N'
