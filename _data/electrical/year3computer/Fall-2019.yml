@@ -63,7 +63,8 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1BvtMiv_IfHCaAgZCls8RwDhCFK3VnIj6/view?usp=drivesdk
-  - publishdate: 2019/10/08
+  - description: Lecture 1 (مكتوبة)
+    publishdate: 2019/10/08
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
@@ -73,23 +74,81 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1lu2ZjpNkXlPi6Kjrc-PCPHQasaJm6I23/view?usp=drivesdk
-  - publishdate: 2019/10/11
+  - description: Lecture 2 (مكتوبة)
+    publishdate: 2019/10/11
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1-ioZFEVQedIvibHZL6dKwyi6wx2krQGK/view?usp=drivesdk
-  - publishdate: 2019/10/11
+  - description: 'Computer Organizations  and Architecture '
+    publishdate: 2019/10/11
     subject: Computer Architecture
     type: Book
     url: >-
       https://drive.google.com/file/d/19Y0IoMAOLlu99RNi9pZNAYsef4QTajN_/view?usp=drivesdk
-  - publishdate: 2019/10/11
+  - description: Lecture 2
+    publishdate: 2019/10/11
     subject: Computer Architecture
     type: Lecture
     url: >-
-      https://drive.google.com/file/d/1JHQ2B3cZ_kMqPCqAn61QVcgGepI6lJ7H/view?usp=drivesdk
-  - publishdate: 2019/10/11
+      https://drive.google.com/file/d/1oUbeSpsX_ucEOruvMngfBxs4sqYrjeq8/view?usp=drivesdk
+  - description: Lecture 2
+    publishdate: 2019/10/11
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1yhe6ZGtnWA122-rMK5v8aA2NVXF7V7Z3/view?usp=drivesdk
+  - description: 'Taste of Multimedia '
+    publishdate: 2019/10/18
+    subject: Multimedia
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1nVofZn2UyBCEsQNDCCInxp5c2omThAbQ/view?usp=drivesdk
+  - description: 'Graphics and image data representation '
+    publishdate: 2019/10/18
+    subject: Multimedia
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1k4rCVpqObogmrcNu187lIO8oqtm_-Ud6/view?usp=drivesdk
+  - description: 'Fundamentals of Multimedia '
+    publishdate: 2019/10/18
+    subject: Multimedia
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/18GR3PQtUFXcuRPS2oWXjmk7zluGJemj4/view?usp=drivesdk
+  - description: 'Lecture 3 '
+    publishdate: 2019/10/18
+    subject: Automatic Control Systems 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/17nH9lbz__OmqtxV3V-pzE2zBkdB3Brmy/view?usp=drivesdk
+  - description: Sheet 1 control
+    publishdate: 2019/10/18
+    subject: Automatic Control Systems 2
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1nhzUhhyJy-ClwNdLQefdvDUqS4am78pJ/view?usp=drivesdk
+  - description: Sheet
+    publishdate: 2019/10/18
+    subject: Computer Architecture
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1Y-RvBjD-q_2pJ84VHB460qWBrKgkfwoh/view?usp=drivesdk
+  - description: Lecture 3
+    publishdate: 2019/10/18
+    subject: Computer Architecture
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1JHQ2B3cZ_kMqPCqAn61QVcgGepI6lJ7H/view?usp=drivesdk
+  - description: Lecture 4
+    publishdate: 2019/10/18
+    subject: Computer Architecture
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1RVNloJQFOeHARE7w_83I1m2fo9Tufyrq/view?usp=drivesdk
+  - description: 'The art of problem solving '
+    publishdate: 2019/10/18
+    subject: Compilers
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/1Mq5SiISrGZ5kRviBc1Yrvk_ESMChIcz-/view?usp=drivesdk
