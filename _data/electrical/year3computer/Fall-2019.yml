@@ -98,13 +98,13 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1yhe6ZGtnWA122-rMK5v8aA2NVXF7V7Z3/view?usp=drivesdk
-  - description: 'Taste of Multimedia '
+  - description: 'Taste of Multimedia (مكتوبة) '
     publishdate: 2019/10/18
     subject: Multimedia
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1nVofZn2UyBCEsQNDCCInxp5c2omThAbQ/view?usp=drivesdk
-  - description: 'Graphics and image data representation '
+  - description: 'Graphics and image data representation (مكتوبة) '
     publishdate: 2019/10/18
     subject: Multimedia
     type: Lecture
@@ -158,3 +158,9 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1koJyV12poj2CkISUgbOBgPYrQ132LmPQ/view?usp=drivesdk
+  - description: Lecture 2 & 3
+    publishdate: 2019/10/18
+    subject: Multimedia
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1uwGudP35J2tNykdo7FhlFXSHjWg6fePs/view?usp=drivesdk
