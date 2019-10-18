@@ -152,3 +152,9 @@ files:
     type: Book
     url: >-
       https://drive.google.com/file/d/1Mq5SiISrGZ5kRviBc1Yrvk_ESMChIcz-/view?usp=drivesdk
+  - description: Lecture 3
+    publishdate: 2019/10/18
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1koJyV12poj2CkISUgbOBgPYrQ132LmPQ/view?usp=drivesdk
