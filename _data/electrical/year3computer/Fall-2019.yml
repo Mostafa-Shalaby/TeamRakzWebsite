@@ -170,3 +170,9 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/14ZmccNUPFqktRYGkCik2w6dZ2jJ10TIc/view?usp=drivesdk
+  - description: 'Probability theory '
+    publishdate: 2019/10/19
+    subject: Engineering Mathematics 4
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1OmCGSrekZosxOCiIBxuwAtTqYmKMuMXE/view?usp=drivesdk
