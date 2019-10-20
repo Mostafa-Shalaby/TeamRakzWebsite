@@ -145,3 +145,13 @@ files:
     subject: Electrical and Electronic Engineering
     type: Book
     url: 'https://drive.google.com/open?id=1cI19xuPeZoCqs-ADt_LJ-2flDDDMJEAI'
+  - description: '1'
+    publishdate: 2019/10/20
+    subject: Metals
+    type: Book
+    url: 'https://drive.google.com/open?id=1NfIiavvqHEsUbQKZpPEaSatth-pazKsS'
+  - description: '2'
+    publishdate: 2019/10/20
+    subject: Metals
+    type: Book
+    url: 'https://drive.google.com/open?id=1I9NOSasenJeFadGriVictqG8l-Ss8SHE'
