@@ -105,7 +105,12 @@ files:
     subject: Engineering Mathematics 2
     type: Lecture
     url: 'https://drive.google.com/open?id=1Lm8pxYrpfGlIyyr11QCvjOmmajsELdN2'
-  - description: week2...3
+  - description: week2
+    publishdate: 2019/10/20
+    subject: Production Engineering 1
+    type: Book
+    url: 'https://drive.google.com/open?id=1NG5usbrJgj_SRalkHyHJS6iRokyFW9Qm'
+  - description: week3
     publishdate: 2019/10/20
     subject: Production Engineering 1
     type: Book
