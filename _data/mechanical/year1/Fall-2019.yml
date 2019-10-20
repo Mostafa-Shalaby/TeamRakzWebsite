@@ -105,3 +105,38 @@ files:
     subject: Engineering Mathematics 2
     type: Lecture
     url: 'https://drive.google.com/open?id=1Lm8pxYrpfGlIyyr11QCvjOmmajsELdN2'
+  - description: week2...3
+    publishdate: 2019/10/20
+    subject: Production Engineering 1
+    type: Book
+    url: 'https://drive.google.com/open?id=1NUM9P-ZSdIvY-qasDb4KyU4-lQ42pHo0'
+  - description: week1
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1ABxWUGocldHRMfL-J6GD0_cDLvQZuol4'
+  - description: '2'
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1eSnVlgOBcI5lceuv8BgHKwgYeNO4t9NX'
+  - description: '3'
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1pEltDy3j00UC2BEp3qsejrja-AnRjTbw'
+  - description: '4'
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1wW0sOsx0xGV0RbQzT80aW3pZA6oelcI-'
+  - description: '5'
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1uR07KyA3ZYnofoU9dqNP9YhxYHSaupU9'
+  - description: '6'
+    publishdate: 2019/10/20
+    subject: Electrical and Electronic Engineering
+    type: Book
+    url: 'https://drive.google.com/open?id=1cI19xuPeZoCqs-ADt_LJ-2flDDDMJEAI'
