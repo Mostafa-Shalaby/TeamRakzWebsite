@@ -50,3 +50,53 @@ files:
     subject: Electromagnetic Fields
     type: Book
     url: 'https://drive.google.com/open?id=1nRlYqkmDEtTKwXjvq-usYEzLt00FkgAt'
+  - description: Lecture_3
+    publishdate: 2019/10/25
+    subject: Engineering Mathematics 3
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1a-CbdsmH3K5pAo3dQq0-GzaeBFJTQbnn'
+  - description: Lecture_4
+    publishdate: 2019/10/25
+    subject: Engineering Mathematics 3
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1AB32A5SIrd0avJeno4SGXZ4jnui3zoPR'
+  - description: Lecture_5
+    publishdate: 2019/10/25
+    subject: Engineering Mathematics 3
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1fHTgblhFmHxb-va6uzc-rL7tKocfhlPn'
+  - description: Lecture_3
+    publishdate: 2019/10/25
+    subject: Electromagnetic Fields
+    type: Lecture
+    url: 'https://drive.google.com/open?id=11QYWJZ-AExifo1SPPs7R96PI-CayKMAS'
+  - description: Lecture_4
+    publishdate: 2019/10/25
+    subject: Electromagnetic Fields
+    type: Lecture
+    url: 'https://drive.google.com/open?id=11R_FCuk6Inw7JpTJ7nhnpK2AANwFa84a'
+  - description: Sheet_1- Solution
+    publishdate: 2019/10/25
+    subject: Electromagnetic Fields
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1Yy95bIrjjL8hYU-4wtMxz92AjKNFmDiA'
+  - description: Lecture_3
+    publishdate: 2019/10/25
+    subject: Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=17x6GRp2cD1pHpn9MsDJKzAgRzFr_uR7z'
+  - description: Lecture_4
+    publishdate: 2019/10/25
+    subject: Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=19PcBZsUHFm8YDPRuLo1Eo1NsFF-OCNNu'
+  - description: Lecture_2
+    publishdate: 2019/10/25
+    subject: Database Management Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=12Yu0batbVJVwoGhwKXsqRsGUL6LMZaHs'
+  - description: Lecture_3
+    publishdate: 2019/10/25
+    subject: Database Management Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1UaqmeI-zPa8jPnvYrFhbf2LuBL3CSrwH'
