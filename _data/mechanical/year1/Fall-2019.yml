@@ -155,3 +155,48 @@ files:
     subject: Metals
     type: Book
     url: 'https://drive.google.com/open?id=1I9NOSasenJeFadGriVictqG8l-Ss8SHE'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Electrical and Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1Re2m6G2jBXaeUT6D0uwZjXFXWiVGZ8Oo'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Electrical and Electronic Engineering
+    type: Section
+    url: 'https://drive.google.com/open?id=1RQOosYPQIYKGHu3-UzE1N6hsfw2yN92V'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Engineering Mathematics 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1R3LgYFNnPWyCIXi3xjNt9oLwlQKVCiWB'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Engineering Mathematics 2
+    type: Section
+    url: 'https://drive.google.com/open?id=1QsWZpPyzYwqkpicSKXvEGoISECYc6ize'
+  - description: record 5
+    publishdate: 2019/10/26
+    subject: Metals
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1R5rWrYZ8UByf7APR7DxLsC2nosoJNYI5'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Production Engineering 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1Pq_bzExQJs6vsGZx8kKAICNrdXrd7xCK'
+  - description: record 5
+    publishdate: 2019/10/26
+    subject: Production Engineering 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1PhEd8eiZccOFj1l7gXVA_ap6w0S4-RFD'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Structural Theory
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1QIu0-nm_F1nw0OfWaotGiP7558GSaSeO'
+  - description: week5
+    publishdate: 2019/10/26
+    subject: Structural Theory
+    type: Section
+    url: 'https://drive.google.com/open?id=1Qp4ehGErwDs7DZ7nMIzBB660oqXC5UuK'
