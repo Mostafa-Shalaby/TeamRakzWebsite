@@ -100,3 +100,33 @@ files:
     subject: Database Management Systems
     type: Lecture
     url: 'https://drive.google.com/open?id=1UaqmeI-zPa8jPnvYrFhbf2LuBL3CSrwH'
+  - description: Lecture5
+    publishdate: 2019/11/01
+    subject: Electromagnetic Fields
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1c9jYTo_UZsxUFTtfTyYcXOhnCx2-vzNm'
+  - description: Lecture5
+    publishdate: 2019/11/01
+    subject: Electronic Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1nkeyA55nxVRf2W353nylZqBQGgYjGDKW'
+  - description: Lecture6
+    publishdate: 2019/11/01
+    subject: Engineering Mathematics 3
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10ileQd2mrUZYBSekByZevtZLJrEPhiJm'
+  - description: Sheet2
+    publishdate: 2019/11/01
+    subject: Electromagnetic Fields
+    type: Exercise
+    url: 'https://drive.google.com/open?id=18TKeOLmBLZk4ftcZFMsgvmtwxLYrSrzX'
+  - description: Sheet3
+    publishdate: 2019/11/01
+    subject: Electromagnetic Fields
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1x3vh2ho5CpNCBaFhJLcr-fEIpYmiYJE3'
+  - description: Sheet4
+    publishdate: 2019/11/01
+    subject: Electromagnetic Fields
+    type: Exercise
+    url: 'https://drive.google.com/open?id=13W-eDqf1EVyHYMOeRjoudnIc1rcNiRMr'
