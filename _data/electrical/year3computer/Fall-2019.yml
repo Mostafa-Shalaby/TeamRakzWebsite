@@ -5,7 +5,7 @@ files:
     subject: Computer Architecture
     type: Lecture
     url: 'https://drive.google.com/open?id=1OaPn4SSzm4NIAgoXuPMUZhCePPfRWQbE'
-  - description: 'Introduction into Probability (مكتوبة)'
+  - description: Introduction into Probability (مكتوبة)
     publishdate: 2019/09/25
     subject: Engineering Mathematics 4
     type: Lecture
@@ -14,8 +14,7 @@ files:
     publishdate: 2019/10/27
     subject: Engineering Mathematics 4
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1_LCUp7g48LJhMFLL2puAtGCcg-qbvjEx/view
+    url: 'https://drive.google.com/file/d/1_LCUp7g48LJhMFLL2puAtGCcg-qbvjEx/view'
   - description: 'Modern Control Engineering, (5th Edition) By Katsuhiko Ogata'
     publishdate: 2019/09/30
     subject: Automatic Control Systems 2
@@ -48,7 +47,7 @@ files:
     subject: Automatic Control Systems 2
     type: Book
     url: 'https://drive.google.com/file/d/175qF8TqjlWoFyv45iLew8kOg4ceZjHn7/view'
-  - description: 'Lecture 1 (PowerPoint)'
+  - description: Lecture 1 (PowerPoint)
     publishdate: 2019/09/30
     subject: Automatic Control Systems 2
     type: Other
@@ -58,7 +57,7 @@ files:
     subject: Design and Analysis of Algorithms
     type: Lecture
     url: 'https://drive.google.com/open?id=1RyhFPW7OFG2QZ9PyMlS_I38ASpTf97u-'
-  - description: 'Probability Axioms (مكتوبة)'
+  - description: Probability Axioms (مكتوبة)
     publishdate: 2019/10/06
     subject: Engineering Mathematics 4
     type: Lecture
@@ -70,37 +69,37 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1BvtMiv_IfHCaAgZCls8RwDhCFK3VnIj6/view?usp=drivesdk
-  - description: 'State-space Representation (مكتوبة)'
+  - description: State-space Representation (مكتوبة)
     publishdate: 2019/10/08
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1IKJp4bPhsBiRL1kuOxEl2MlRrbk4eNYs/view?usp=drivesdk
-  - description: 'Introduction to Programming (PowerPoint)'
+  - description: Introduction to Programming (PowerPoint)
     publishdate: 2019/10/08
     subject: Compilers
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1lu2ZjpNkXlPi6Kjrc-PCPHQasaJm6I23/view?usp=drivesdk
-  - description: 'More on State-space Representation (مكتوبة)'
+  - description: More on State-space Representation (مكتوبة)
     publishdate: 2019/10/11
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1-ioZFEVQedIvibHZL6dKwyi6wx2krQGK/view?usp=drivesdk
-  - description: 'Computer Organizations and Architecture'
+  - description: Computer Organizations and Architecture
     publishdate: 2019/10/11
     subject: Computer Architecture
     type: Book
     url: >-
       https://drive.google.com/file/d/19Y0IoMAOLlu99RNi9pZNAYsef4QTajN_/view?usp=drivesdk
-  - description: 'Computer Structure (PowerPoint)'
+  - description: Computer Structure (PowerPoint)
     publishdate: 2019/10/11
     subject: Computer Architecture
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1oUbeSpsX_ucEOruvMngfBxs4sqYrjeq8/view?usp=drivesdk
-  - description: 'Lecture 2 (PowerPoint)'
+  - description: Lecture 2 (PowerPoint)
     publishdate: 2019/10/11
     subject: Automatic Control Systems 2
     type: Other
@@ -124,7 +123,7 @@ files:
     type: Book
     url: >-
       https://drive.google.com/file/d/18GR3PQtUFXcuRPS2oWXjmk7zluGJemj4/view?usp=drivesdk
-  - description: 'Lecture 3 (PowerPoint)'
+  - description: Lecture 3 (PowerPoint)
     publishdate: 2019/10/18
     subject: Automatic Control Systems 2
     type: Other
@@ -178,7 +177,7 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/14ZmccNUPFqktRYGkCik2w6dZ2jJ10TIc/view?usp=drivesdk
-  - description: 'Probability Theory (مكتوبة)'
+  - description: Probability Theory (مكتوبة)
     publishdate: 2019/10/19
     subject: Engineering Mathematics 4
     type: Section
@@ -196,7 +195,7 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/16_hnv9cCxVObYLrGvz_GH-6vI6rkjPpZ/view?usp=drivesdk
-  - description: 'Conditional Probability (مكتوبة)'
+  - description: Conditional Probability (مكتوبة)
     publishdate: 2019/10/27
     subject: Engineering Mathematics 4
     type: Section
@@ -208,13 +207,13 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1oq9dMm6A7Zhoxnui6P5O4lT0AhIQYfGn/view?usp=drivesdk
-  - description: 'Color in Images (مكتوبة)'
+  - description: Color in Images (مكتوبة)
     publishdate: 2019/10/31
     subject: Multimedia
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1T3T_vqHO_wiAgMLpPG_IWfFqDjrl2FMa/view?usp=drivesdk
-  - description: 'Color in Images and Videos (مكتوبة)'
+  - description: Color in Images and Videos (مكتوبة)
     publishdate: 2019/10/31
     subject: Multimedia
     type: Lecture
@@ -230,131 +229,114 @@ files:
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1a6wzl4-q-0fDrl-T_QZzQiuU5ditO32Y/view
+    url: 'https://drive.google.com/file/d/1a6wzl4-q-0fDrl-T_QZzQiuU5ditO32Y/view'
   - description: String and Characters (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/16caCGex0djIwtN5xdnjhxHD50JyS1fMz/view
+    url: 'https://drive.google.com/file/d/16caCGex0djIwtN5xdnjhxHD50JyS1fMz/view'
   - description: Arrays (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/17Fdv1ShiYjyozyPPzXbf6xMxLMvqDQem/view
+    url: 'https://drive.google.com/file/d/17Fdv1ShiYjyozyPPzXbf6xMxLMvqDQem/view'
   - description: Searching Techniques (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1xIdFwbKWecKsCmv9P06oQFb9p7VOXMy6/view 
+    url: 'https://drive.google.com/file/d/1xIdFwbKWecKsCmv9P06oQFb9p7VOXMy6/view '
   - description: Linked Lists (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1gqyg0cRRX9CsPlYss3d0eoDNL68BdZAY/view
+    url: 'https://drive.google.com/file/d/1gqyg0cRRX9CsPlYss3d0eoDNL68BdZAY/view'
   - description: Queue (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1gAIZKiC7jVwXl8yXb6ZaGhenrPlMfx71/view
+    url: 'https://drive.google.com/file/d/1gAIZKiC7jVwXl8yXb6ZaGhenrPlMfx71/view'
   - description: Stacks (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1J6p4pVwFTsyks4bX7DvROdwQJSYuL4fw/view
+    url: 'https://drive.google.com/file/d/1J6p4pVwFTsyks4bX7DvROdwQJSYuL4fw/view'
   - description: Developed Structures (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1Y9nalu7WPnEU0_md7wXLqF7s_8hmDA28/view
+    url: 'https://drive.google.com/file/d/1Y9nalu7WPnEU0_md7wXLqF7s_8hmDA28/view'
   - description: Error Control (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1NRgui1Wo5NuKQRyYWZ2gHFi0nVBVbp1c/view
+    url: 'https://drive.google.com/file/d/1NRgui1Wo5NuKQRyYWZ2gHFi0nVBVbp1c/view'
   - description: Search Algorithms (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1kCcYrLbyBveF-I0JfmkgQO1ryK_e-8eW/view
+    url: 'https://drive.google.com/file/d/1kCcYrLbyBveF-I0JfmkgQO1ryK_e-8eW/view'
   - description: Genetic Algorithm (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1y44T3JlIpTlu6KpJEkc2YnHfBibkXUeW/view
+    url: 'https://drive.google.com/file/d/1y44T3JlIpTlu6KpJEkc2YnHfBibkXUeW/view'
   - description: Pattern Recognition (PowerPoint)
     publishdate: 2019/11/02
     subject: Design and Analysis of Algorithms
     type: Lecture
-    url: >-
-      https://drive.google.com/file/d/1Zy6a6kGBv32UIqs4EDzgDCVrph7dtnU-/view
+    url: 'https://drive.google.com/file/d/1Zy6a6kGBv32UIqs4EDzgDCVrph7dtnU-/view'
   - description: Theory and Problems of Statistics 3rd Edition
     publishdate: 2019/11/02
     subject: Engineering Mathematics 4
     type: Book
-    url: >-
-      https://drive.google.com/file/d/18k2MN0BnyJwbiocvBKMe0CxJquCpvCHC/view
+    url: 'https://drive.google.com/file/d/18k2MN0BnyJwbiocvBKMe0CxJquCpvCHC/view'
   - description: Algorithms Sheet 1
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/1Xmuxs09HS7cJpl_rAZF-Wehuq8COwxl7/view
+    url: 'https://drive.google.com/file/d/1Xmuxs09HS7cJpl_rAZF-Wehuq8COwxl7/view'
   - description: Python Sheet 1
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/1ljZ1GeW_GTqmP_c5FmAIKXxVGOE-5-dO/view
+    url: 'https://drive.google.com/file/d/1ljZ1GeW_GTqmP_c5FmAIKXxVGOE-5-dO/view'
   - description: Python Sheet 2
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/1Qx5QPYCfYn1tCAVV1MHcv7di12ULmFVk/view
+    url: 'https://drive.google.com/file/d/1Qx5QPYCfYn1tCAVV1MHcv7di12ULmFVk/view'
   - description: Python Sheet 3
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/1OUn_3nzKzVJmlhL0frgB6RfGTGAfRzAk/view
+    url: 'https://drive.google.com/file/d/1OUn_3nzKzVJmlhL0frgB6RfGTGAfRzAk/view'
   - description: Python Sheet 4
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/1hdelYhQGu8oOemszKpeUkPO6AaJ1Bx0d/view
+    url: 'https://drive.google.com/file/d/1hdelYhQGu8oOemszKpeUkPO6AaJ1Bx0d/view'
   - description: Python Sheet 5
     publishdate: 2019/11/02
     subject: Compilers
     type: Exercise
-    url: >-
-      https://drive.google.com/file/d/19_nUbkNTvHHBlWZhj7Z3cYZpLdr7AvXk/view
+    url: 'https://drive.google.com/file/d/19_nUbkNTvHHBlWZhj7Z3cYZpLdr7AvXk/view'
   - description: Python Programming Language (Arabic)
     publishdate: 2019/11/02
     subject: Compilers
     type: Book
-    url: >-
-      https://drive.google.com/file/d/1vFusE7JDYj3PvWRjCOBlrsifkrAvk7no/view
+    url: 'https://drive.google.com/file/d/1vFusE7JDYj3PvWRjCOBlrsifkrAvk7no/view'
   - description: Become a Python Expert (Arabic)
     publishdate: 2019/11/02
     subject: Compilers
     type: Book
-    url: >-
-      https://drive.google.com/file/d/177mxp_7gHtoDcIsbUWBXsuRQwVKviW5Q/view
+    url: 'https://drive.google.com/file/d/177mxp_7gHtoDcIsbUWBXsuRQwVKviW5Q/view'
   - description: Python 3 Memory Sheet (English)
     publishdate: 2019/11/02
     subject: Compilers
     type: Book
-    url: >-
-      https://drive.google.com/file/d/1g7N_MZ6ic1xBRkcwDiWiYWHXToTK4w4R/view
+    url: 'https://drive.google.com/file/d/1g7N_MZ6ic1xBRkcwDiWiYWHXToTK4w4R/view'
+  - description: Blockchain
+    publishdate: 2019/11/02
+    subject: Projects Management and Marketing
+    type: Lecture
+    url: 'https://drive.google.com/open?id=178swQ6ncaFCuaQCq5atkuEI_ixQAdvwk'
