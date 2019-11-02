@@ -226,3 +226,75 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/18hnLoKBnttXtADEdoD1YutnvJhjmN8m9/view?usp=drivesdk
+  - description: Algorithm Analysis (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1a6wzl4-q-0fDrl-T_QZzQiuU5ditO32Y/view
+  - description: String and Characters (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/16caCGex0djIwtN5xdnjhxHD50JyS1fMz/view
+  - description: Arrays (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/17Fdv1ShiYjyozyPPzXbf6xMxLMvqDQem/view
+  - description: Searching Techniques (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1xIdFwbKWecKsCmv9P06oQFb9p7VOXMy6/view 
+  - description: Linked Lists (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1gqyg0cRRX9CsPlYss3d0eoDNL68BdZAY/view
+  - description: Queue (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1gAIZKiC7jVwXl8yXb6ZaGhenrPlMfx71/view
+  - description: Stacks (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1J6p4pVwFTsyks4bX7DvROdwQJSYuL4fw/view
+  - description: Developed Structures (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1Y9nalu7WPnEU0_md7wXLqF7s_8hmDA28/view
+  - description: Error Control (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1NRgui1Wo5NuKQRyYWZ2gHFi0nVBVbp1c/view
+  - description: Search Algorithms (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kCcYrLbyBveF-I0JfmkgQO1ryK_e-8eW/view
+  - description: Genetic Algorithm (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1y44T3JlIpTlu6KpJEkc2YnHfBibkXUeW/view
+  - description: Pattern Recognition (PowerPoint)
+    publishdate: 2019/11/02
+    subject: Design and Analysis of Algorithms
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1Zy6a6kGBv32UIqs4EDzgDCVrph7dtnU-/view
