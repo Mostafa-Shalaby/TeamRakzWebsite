@@ -1,15 +1,21 @@
 title: Fall 2019
 files:
-  - description: Introduction and Definition of Computers
+  - description: Introduction and Definition of Computers (PowerPoint)
     publishdate: 2019/09/25
     subject: Computer Architecture
     type: Lecture
     url: 'https://drive.google.com/open?id=1OaPn4SSzm4NIAgoXuPMUZhCePPfRWQbE'
-  - description: Introduction into Probability and its Basic Concept.
+  - description: 'Introduction into Probability (مكتوبة)'
     publishdate: 2019/09/25
     subject: Engineering Mathematics 4
     type: Lecture
     url: 'https://drive.google.com/file/d/1fFm9KuJYSrnJBf-KwzpXRjZOvc4J-t_F/view'
+  - description: The Probability Function (مكتوبة)
+    publishdate: 2019/10/27
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1_LCUp7g48LJhMFLL2puAtGCcg-qbvjEx/view
   - description: 'Modern Control Engineering, (5th Edition) By Katsuhiko Ogata'
     publishdate: 2019/09/30
     subject: Automatic Control Systems 2
@@ -42,60 +48,62 @@ files:
     subject: Automatic Control Systems 2
     type: Book
     url: 'https://drive.google.com/file/d/175qF8TqjlWoFyv45iLew8kOg4ceZjHn7/view'
-  - description: 'Review of control concepts, State-space Representations'
+  - description: 'Lecture 1 (PowerPoint)'
     publishdate: 2019/09/30
     subject: Automatic Control Systems 2
-    type: Lecture
+    type: Other
     url: 'https://drive.google.com/open?id=1BeyI1Iji32MKbjKYUcbM8JfZWEdCqqdm'
-  - description: Introduction to Algorithms
+  - description: Introduction to Algorithms (PowerPoint)
     publishdate: 2019/09/30
     subject: Design and Analysis of Algorithms
     type: Lecture
     url: 'https://drive.google.com/open?id=1RyhFPW7OFG2QZ9PyMlS_I38ASpTf97u-'
-  - description: Probability Axioms
+  - description: 'Probability Axioms (مكتوبة)'
     publishdate: 2019/10/06
     subject: Engineering Mathematics 4
     type: Lecture
     url: >-
       https://drive.google.com/file/d/16e5LllQAm-c3epBiEkrZVe-BNmWGsBwM/view?usp=drivesdk
-  - publishdate: 2019/10/08
+  - description: Introduction to Multimedia (مكتوبة)
+    publishdate: 2019/10/08
     subject: Multimedia
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1BvtMiv_IfHCaAgZCls8RwDhCFK3VnIj6/view?usp=drivesdk
-  - description: Lecture 1 (مكتوبة)
+  - description: 'State-space Representation (مكتوبة)'
     publishdate: 2019/10/08
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1IKJp4bPhsBiRL1kuOxEl2MlRrbk4eNYs/view?usp=drivesdk
-  - publishdate: 2019/10/08
+  - description: 'Introduction to Programming (PowerPoint)'
+    publishdate: 2019/10/08
     subject: Compilers
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1lu2ZjpNkXlPi6Kjrc-PCPHQasaJm6I23/view?usp=drivesdk
-  - description: Lecture 2 (مكتوبة)
+  - description: 'More on State-space Representation (مكتوبة)'
     publishdate: 2019/10/11
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1-ioZFEVQedIvibHZL6dKwyi6wx2krQGK/view?usp=drivesdk
-  - description: 'Computer Organizations  and Architecture '
+  - description: 'Computer Organizations and Architecture'
     publishdate: 2019/10/11
     subject: Computer Architecture
     type: Book
     url: >-
       https://drive.google.com/file/d/19Y0IoMAOLlu99RNi9pZNAYsef4QTajN_/view?usp=drivesdk
-  - description: Lecture 2
+  - description: 'Computer Structure (PowerPoint)'
     publishdate: 2019/10/11
     subject: Computer Architecture
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1oUbeSpsX_ucEOruvMngfBxs4sqYrjeq8/view?usp=drivesdk
-  - description: Lecture 2
+  - description: 'Lecture 2 (PowerPoint)'
     publishdate: 2019/10/11
     subject: Automatic Control Systems 2
-    type: Lecture
+    type: Other
     url: >-
       https://drive.google.com/file/d/1yhe6ZGtnWA122-rMK5v8aA2NVXF7V7Z3/view?usp=drivesdk
   - description: 'Taste of Multimedia (مكتوبة) '
@@ -116,31 +124,31 @@ files:
     type: Book
     url: >-
       https://drive.google.com/file/d/18GR3PQtUFXcuRPS2oWXjmk7zluGJemj4/view?usp=drivesdk
-  - description: 'Lecture 3 '
+  - description: 'Lecture 3 (PowerPoint)'
     publishdate: 2019/10/18
     subject: Automatic Control Systems 2
-    type: Lecture
+    type: Other
     url: >-
       https://drive.google.com/file/d/17nH9lbz__OmqtxV3V-pzE2zBkdB3Brmy/view?usp=drivesdk
-  - description: Sheet 1 control
+  - description: Sheet 1
     publishdate: 2019/10/18
     subject: Automatic Control Systems 2
     type: Exercise
     url: >-
       https://drive.google.com/file/d/1nhzUhhyJy-ClwNdLQefdvDUqS4am78pJ/view?usp=drivesdk
-  - description: Sheet
+  - description: Sheet 1
     publishdate: 2019/10/18
     subject: Computer Architecture
     type: Exercise
     url: >-
       https://drive.google.com/file/d/1Y-RvBjD-q_2pJ84VHB460qWBrKgkfwoh/view?usp=drivesdk
-  - description: Lecture 3
+  - description: CPU Componants (PowerPoint)
     publishdate: 2019/10/18
     subject: Computer Architecture
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1JHQ2B3cZ_kMqPCqAn61QVcgGepI6lJ7H/view?usp=drivesdk
-  - description: Lecture 4
+  - description: Computer Arithmetic (PowerPoint)
     publishdate: 2019/10/18
     subject: Computer Architecture
     type: Lecture
@@ -152,65 +160,67 @@ files:
     type: Book
     url: >-
       https://drive.google.com/file/d/1Mq5SiISrGZ5kRviBc1Yrvk_ESMChIcz-/view?usp=drivesdk
-  - description: Lecture 3
+  - description: Conditional Probability (مكتوبة)
     publishdate: 2019/10/18
     subject: Engineering Mathematics 4
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1koJyV12poj2CkISUgbOBgPYrQ132LmPQ/view?usp=drivesdk
-  - description: Lecture 2 & 3
+  - description: Chapter 2 & 3 (PowerPoint)
     publishdate: 2019/10/18
     subject: Multimedia
-    type: Lecture
+    type: Other
     url: >-
       https://drive.google.com/file/d/1uwGudP35J2tNykdo7FhlFXSHjWg6fePs/view?usp=drivesdk
-  - description: Lecture 3(مكتوبة)
+  - description: Pole Placement (مكتوبة)
     publishdate: 2019/10/18
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/14ZmccNUPFqktRYGkCik2w6dZ2jJ10TIc/view?usp=drivesdk
-  - description: 'Probability theory '
+  - description: 'Probability Theory (مكتوبة)'
     publishdate: 2019/10/19
     subject: Engineering Mathematics 4
     type: Section
     url: >-
       https://drive.google.com/file/d/1OmCGSrekZosxOCiIBxuwAtTqYmKMuMXE/view?usp=drivesdk
-  - description: Lecture 4 polar  & Nyquist plot
+  - description: Lecture 4 (PowerPoint)
     publishdate: 2019/10/25
     subject: Automatic Control Systems 2
-    type: Lecture
+    type: Other
     url: >-
       https://drive.google.com/file/d/1VSbr_mXreFI7SlviDHNwueMFFWiGvtgA/view?usp=drivesdk
-  - description: Lecture 4 polar  & Nyquist plot (مكتوبة )
+  - description: Polar Plot Method (مكتوبة)
     publishdate: 2019/10/25
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/16_hnv9cCxVObYLrGvz_GH-6vI6rkjPpZ/view?usp=drivesdk
-  - publishdate: 2019/10/27
+  - description: 'Conditional Probability (مكتوبة)'
+    publishdate: 2019/10/27
     subject: Engineering Mathematics 4
     type: Section
     url: >-
       https://drive.google.com/file/d/1p7SIoJwNbMYCmZjgy7MjFLWcbHgvO8n6/view?usp=drivesdk
-  - publishdate: 2019/10/27
+  - description: Random Variables (مكتوبة)
+    publishdate: 2019/10/27
     subject: Engineering Mathematics 4
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1oq9dMm6A7Zhoxnui6P5O4lT0AhIQYfGn/view?usp=drivesdk
-  - description: ' Lecture 4 (مكتوبة )'
+  - description: 'Color in Images (مكتوبة)'
     publishdate: 2019/10/31
     subject: Multimedia
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1T3T_vqHO_wiAgMLpPG_IWfFqDjrl2FMa/view?usp=drivesdk
-  - description: Lecture 5 (مكتوبة)
+  - description: 'Color in Images and Videos (مكتوبة)'
     publishdate: 2019/10/31
     subject: Multimedia
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1o8-iFtw0tGZZxwAwr2qCKJKjVSVTYbFx/view?usp=drivesdk
-  - description: Lecture 5(مكتوبة)
+  - description: Nyquist Plot (مكتوبة)
     publishdate: 2019/11/02
     subject: Automatic Control Systems 2
     type: Lecture
