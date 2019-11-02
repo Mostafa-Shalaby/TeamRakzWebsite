@@ -25,7 +25,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 1","Engineering Physics 1","Mechanics 1","Engineering Chemistry", "Computer Technology", "Engineering Drawing and Projection", "Production Technology", "Technical English", "Engineering History"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Electrical - Year 1"
@@ -44,7 +44,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 2","Engineering Physics 2","Electrical Circuits","Logical Circuits", "Data Structures and Algorithms", "Civil Engineering", "Mechanical Power Engineering", "Computer programming", "Electrical Measurements and Instruments", "Technical Reports Writing"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Electrical - Year 2"
@@ -63,7 +63,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 3","Automatic Control Systems","Electromagnetic Fields","Electronic Engineering", "Industrial Safety", "Microprocessor Systems", "Database Management Systems", "Energy Conversion", "Signal Processing","Engineering Economics","Electrical and Electronic Tests","Systems Dynamics and Control Components"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Electrical - Year 3 Computer"
@@ -82,7 +82,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation","Computer Architecture","Design and Analysis of Algorithms", "Multimedia", "Automatic Control Systems 2", "Projects Management and Marketing", "Engineering Mathematics 4", "Compilers", "Software Engineering", "Modeling and Simulation", "Operating Systems", "Digital Communications","Digital Control"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Electrical - Year 3 Power"
@@ -101,7 +101,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Electrical Machines 1", "Transmission and Distribution", "Project Management and Marketing", "Engineering Mathematics 4", "Electrical Tests 2", "Automatic Control", "Power Electronics", "Electrical Machines 2", "High Voltage Engineering", "Electrical Power Systems Analysis 1", "Data Communication Systems"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Electrical - Year 3 Telecom"
@@ -120,7 +120,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Communication Systems 1", "Electronic Tests and Measurements 1", "Electronic Devices","Microprocessors and their Applications", "Electromagnetic radiation", "Engineering Mathematics 4", "Optoelectronics", "Electronic Circuits 2", "Project Management and Marketing"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Civil - Year 1"
@@ -139,7 +139,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Structural Analysis 1", "Flat Area", "Properties and Testing of Materials 1", "Engineering Mathematics 2", "Architectural Construction", "Engineer and Environment", "Civil Drawing", "Electromechanical Installations and Equipment Engineering", "Engineering Geology"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Civil - Year 2"
@@ -158,7 +158,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Analysis of Constructions 2", "Design of Reinforced Concrete Structures 1", "Properties and Testing of Materials 2", "Fluid Mechanics", "Hydrology", "Applied Statistics", "Topographic Area", "Engineering Economics", "Soil Mechanics 1", "Irrigation and drainage engineering"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Civil - Year 3"
@@ -177,7 +177,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Analysis of Constructions 3", "Design of Reinforced Concrete Structures 2", "Design of Metal Structures", "Soil Mechanics 2", "Transportation and Traffic Engineering", "Hydraulics", "Project Management and Construction", "Foundation Engineering 1", "Irrigation Design 1",]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Mechanical - Year 1"
@@ -196,7 +196,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Engineering Mathematics 2", "Drawing Machines", "Metals", "Production Engineering 1", "Structural Theory", "Electrical and Electronic Engineering", "Materials Testing and Engineering", "Mechanics 2", "Thermodynamics 1", "Engineering Physics 2", "Writing Technical Reports"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Mechanical - Year 2"
@@ -215,7 +215,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Theory of Machines", "Machinery Design", "Electrical Engineering", "Stress Analysis", "Thermodynamics 2", "Fluid Mechanics", "Industrial Safety", "Production Engineering 2", "Heat Transfer and Mass", "Measurements", "Engineering Economics"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Mechanical - Year 3 Power"
@@ -234,7 +234,7 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Mechanical Design", "Hydraulic Machines", "Automatic Control", "Thermal Power Stations 1",  "Combustion theory", "Introduction to Quality Systems", "Management and Marketing", "Electrical Power Engineering", "Vibration Theory", "Internal Combustion Machines 1", "Gas Dynamics", "Environmental Studies"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
   - label: "Mechanical - Year 3 Production"
@@ -253,6 +253,6 @@ collections:
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
         - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation", "Machinery Design", "Measurement Devices", "Energy Installations", "Automatic Control", "Metal Forming Theory and Technology 1", "Legislation and contracts", "Metal Forming Theory and Technology 2", "Vibration Theory", "Machining & Forming Machines", "Environmental Studies"]}
-        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Book","Exercise"]}
+        - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}

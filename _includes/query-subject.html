@@ -18,6 +18,14 @@
           <a href="{{ file.url }}" target="_blank" class="btn">View</a>
         </div>{% endfor %}
       </div>
+      <div class="exercise-items">{% assign exercisefiles = source | where: 'type', 'Exercise' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if exercisefiles.size !=  0 %}<h2>Exercises:</h2>{% endif %}
+        {% for file in exercisefiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>Exercise {{count}}:</h4>
+          <p>{{ file.description }}</p>
+          <a href="{{ file.url }}" target="_blank" class="btn">View</a>
+        </div>{% endfor %}
+      </div>
       <div class="book-items">{% assign bookfiles = source | where: 'type', 'Book' | where: 'subject', include.subject %}{% assign count = 0 %}
         {% if bookfiles.size !=  0 %}<h2>Books:</h2>{% endif %}
         {% for file in bookfiles %}{% assign count = count | plus: 1 %}<div class="file-item">
@@ -26,10 +34,10 @@
           <a href="{{ file.url }}" target="_blank" class="btn">View</a>
         </div>{% endfor %}
       </div>
-      <div class="exercise-items">{% assign exercisefiles = source | where: 'type', 'Exercise' | where: 'subject', include.subject %}{% assign count = 0 %}
-        {% if exercisefiles.size !=  0 %}<h2>Exercises:</h2>{% endif %}
-        {% for file in exercisefiles %}{% assign count = count | plus: 1 %}<div class="file-item">
-          <h4>Exercise {{count}}:</h4>
+      <div class="other-items">{% assign otherfiles = source | where: 'type', 'Other' | where: 'subject', include.subject %}{% assign count = 0 %}
+        {% if otherfiles.size !=  0 %}<h2>Other Files:</h2>{% endif %}
+        {% for file in otherfiles %}{% assign count = count | plus: 1 %}<div class="file-item">
+          <h4>File {{count}}:</h4>
           <p>{{ file.description }}</p>
           <a href="{{ file.url }}" target="_blank" class="btn">View</a>
         </div>{% endfor %}
