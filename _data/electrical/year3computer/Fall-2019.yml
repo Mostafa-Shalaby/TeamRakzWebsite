@@ -154,7 +154,7 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1RVNloJQFOeHARE7w_83I1m2fo9Tufyrq/view?usp=drivesdk
-  - description: 'The art of problem solving '
+  - description: 'The Art of Problem Solving '
     publishdate: 2019/10/18
     subject: Compilers
     type: Book
@@ -298,3 +298,63 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1Zy6a6kGBv32UIqs4EDzgDCVrph7dtnU-/view
+  - description: Theory and Problems of Statistics 3rd Edition
+    publishdate: 2019/11/02
+    subject: Engineering Mathematics 4
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/18k2MN0BnyJwbiocvBKMe0CxJquCpvCHC/view
+  - description: Algorithms Sheet 1
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1Xmuxs09HS7cJpl_rAZF-Wehuq8COwxl7/view
+  - description: Python Sheet 1
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1ljZ1GeW_GTqmP_c5FmAIKXxVGOE-5-dO/view
+  - description: Python Sheet 2
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1Qx5QPYCfYn1tCAVV1MHcv7di12ULmFVk/view
+  - description: Python Sheet 3
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1OUn_3nzKzVJmlhL0frgB6RfGTGAfRzAk/view
+  - description: Python Sheet 4
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1hdelYhQGu8oOemszKpeUkPO6AaJ1Bx0d/view
+  - description: Python Sheet 5
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/19_nUbkNTvHHBlWZhj7Z3cYZpLdr7AvXk/view
+  - description: Python Programming Language (Arabic)
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/1vFusE7JDYj3PvWRjCOBlrsifkrAvk7no/view
+  - description: Become a Python Expert (Arabic)
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/177mxp_7gHtoDcIsbUWBXsuRQwVKviW5Q/view
+  - description: Python 3 Memory Sheet (English)
+    publishdate: 2019/11/02
+    subject: Compilers
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/1g7N_MZ6ic1xBRkcwDiWiYWHXToTK4w4R/view
