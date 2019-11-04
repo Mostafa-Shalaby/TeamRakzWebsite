@@ -153,3 +153,57 @@ files:
     subject: Week Compilation
     type: Lecture
     url: 'https://drive.google.com/open?id=1nPJ1wM20w78R9xaKzzYMJDenY7E0JYlY'
+  - publishdate: 2019/11/04
+    subject: Analysis of Constructions 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1-IrBls3EKirJ4ujVhz5lZoglsvqAHVQj'
+  - description: سكشن 1 م.محمد شوشة
+    publishdate: 2019/11/04
+    subject: Analysis of Constructions 2
+    type: Section
+    url: 'https://drive.google.com/open?id=1-DIckuPXDNNPytSywHdLD0fO8ALwAJrr'
+  - description: سكشن 2 م.محمد شوشة
+    publishdate: 2019/11/04
+    subject: Analysis of Constructions 2
+    type: Section
+    url: 'https://drive.google.com/open?id=1-G33hirosx8qXczPv21zwBPAvMngCb5P'
+  - publishdate: 2019/11/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1vrjD7lK2xuEqQSPojYikz3nJnMy1E3NX'
+  - publishdate: 2019/11/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10DWYbEjJYh2tP-0jJ_JGWSCIKkDYQ0Fg'
+  - publishdate: 2019/11/04
+    subject: Properties and Testing of Materials 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=10PNhWl60HlVVU6Z1Rn0NpYCUOzM_o071'
+  - publishdate: 2019/11/04
+    subject: Fluid Mechanics
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1pjExLWBu7fvXMMUF0KnX7EGv5UMVEslk'
+  - publishdate: 2019/11/04
+    subject: Fluid Mechanics
+    type: Section
+    url: 'https://drive.google.com/open?id=10V3t5gG_tIMpDgr8zsfqyGStZx-K-w5z'
+  - description: جزء تصميم بطريقة ال Working Design غير موجود في الكتاب
+    publishdate: 2019/11/04
+    subject: Design of Reinforced Concrete Structures 1
+    type: Book
+    url: 'https://drive.google.com/open?id=1hnKwxxS97gOmvU79zy_pKUm6F9EZTWcC'
+  - description: جزء التبخر من الكتاب بديل عن الجزء النظري في هذا الباب
+    publishdate: 2019/11/04
+    subject: Hydrology
+    type: Book
+    url: 'https://drive.google.com/open?id=10hRd8M0zTd3YyFLNhI-sBjistQrvP536'
+  - description: أسئلة الشيت الثاني
+    publishdate: 2019/11/04
+    subject: Applied Statistics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1yW2cjbHZIz1AR7X_rNxpiwLvqzJyQZWs'
+  - description: حلول الشيت الثاني م.السيد كمال
+    publishdate: 2019/11/04
+    subject: Applied Statistics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1yblKK3pkPDnP7GGJg1j3bpjtOY8BFWZq'
