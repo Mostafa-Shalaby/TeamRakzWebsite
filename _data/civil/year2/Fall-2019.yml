@@ -80,7 +80,8 @@ files:
     type: Exercise
     url: >-
       https://drive.google.com/file/d/1Pn-i1tt0B2zpxDw6LiWW1w9yN-JdlssV/view?usp=drivesdk
-  - publishdate: 2019/10/10
+  - description: د.رانيا
+    publishdate: 2019/10/10
     subject: Applied Statistics
     type: Lecture
     url: >-
@@ -100,7 +101,8 @@ files:
     subject: Properties and Testing of Materials 2
     type: Section
     url: 'https://drive.google.com/open?id=1YhguVrdD_w6n7r-IUwte3D6mdsPHLgYd'
-  - publishdate: 2019/10/18
+  - description: م.محمد ابوشعيشع
+    publishdate: 2019/10/18
     subject: Analysis of Constructions 2
     type: Section
     url: 'https://drive.google.com/open?id=1bic7ygyo9vhh3zkATYTVSR_5PCs-D8Iz'
