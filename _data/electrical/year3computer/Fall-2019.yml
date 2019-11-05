@@ -337,10 +337,10 @@ files:
     url: 'https://drive.google.com/file/d/1g7N_MZ6ic1xBRkcwDiWiYWHXToTK4w4R/view'
   - description: Blockchain
     publishdate: 2019/11/02
-    subject: Projects Management and Marketing
+    subject: Project Management and Marketing
     type: Lecture
     url: 'https://drive.google.com/open?id=178swQ6ncaFCuaQCq5atkuEI_ixQAdvwk'
-  - description: 'Lecture (6) PID Controller '
+  - description: 'PID Controller (مكتوبة)'
     publishdate: 2019/11/04
     subject: Automatic Control Systems 2
     type: Lecture

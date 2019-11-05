@@ -81,7 +81,7 @@ collections:
         widget: "list"
         fields: 
         - {name: "publishdate", label: "File Publish Date", widget: "datetime", format: "YYYY/MM/DD"}
-        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation","Computer Architecture","Design and Analysis of Algorithms", "Multimedia", "Automatic Control Systems 2", "Projects Management and Marketing", "Engineering Mathematics 4", "Compilers", "Software Engineering", "Modeling and Simulation", "Operating Systems", "Digital Communications","Digital Control"]}
+        - {name: "subject", label: "File Subject", widget: "select", options: ["Week Compilation","Computer Architecture","Design and Analysis of Algorithms", "Multimedia", "Automatic Control Systems 2", "Project Management and Marketing", "Engineering Mathematics 4", "Compilers", "Software Engineering", "Modeling and Simulation", "Operating Systems", "Digital Communications","Digital Control"]}
         - {name: "type", label: "File Type", widget: "select", options: ["Lecture","Section","Exercise","Book","Other"]}
         - {name: "url", label: "File URL", widget: "string", hint: "Google Drive link to the file."}
         - {name: "description", label: "File Description", widget: "string", required: false,  hint: "Ex. Introduction into fluids, Signal Types, etc...."}
