@@ -209,3 +209,35 @@ files:
     subject: Applied Statistics
     type: Exercise
     url: 'https://drive.google.com/open?id=1yblKK3pkPDnP7GGJg1j3bpjtOY8BFWZq'
+  - publishdate: 2019/11/10
+    subject: Analysis of Constructions 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=12tZ75q_qp0E7FePoz2Tjh1g44zBckA01'
+  - publishdate: 2019/11/10
+    subject: Properties and Testing of Materials 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=13vK_-f3LI1yqKBtpUK_8ycXAbp4FkmOd'
+  - publishdate: 2019/11/10
+    subject: Fluid Mechanics
+    type: Lecture
+    url: 'https://drive.google.com/open?id=11QJ3Z-ekJPI_Pvg8YkAB8IxXKcrn2hP5'
+  - description: حل شيت 1
+    publishdate: 2019/11/10
+    subject: Fluid Mechanics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1lRsW8IJPAoQMFYzuFAb9J8EE8rlUwRmc'
+  - description: حل شيت 2
+    publishdate: 2019/11/10
+    subject: Fluid Mechanics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1mHv6Dnyb3mvQpSvfYKDPrhxHbxS5xbbq'
+  - description: حل شيت 3
+    publishdate: 2019/11/10
+    subject: Fluid Mechanics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=14-uXgSWeObvr5rNUMmx-O8hGOHOFKM1U'
+  - description: د. رانيا
+    publishdate: 2019/11/10
+    subject: Applied Statistics
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1331IgRvRZIX2-g0WelsIremD62cAvOAH'
