@@ -428,3 +428,9 @@ files:
     type: Section
     url: >-
       https://drive.google.com/file/d/11cd5wSsOXvJRB0kE-Kmvznef2jmKFvkE/view?usp=drivesdk
+  - description: 'Algorithms in Arabic '
+    publishdate: 2019/11/12
+    subject: Design and Analysis of Algorithms
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/11gHNoDh7iBxofee6bm6sfZZpwHapHLn0/view?usp=drivesdk
