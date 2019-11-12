@@ -340,9 +340,91 @@ files:
     subject: Project Management and Marketing
     type: Lecture
     url: 'https://drive.google.com/open?id=178swQ6ncaFCuaQCq5atkuEI_ixQAdvwk'
-  - description: 'PID Controller (مكتوبة)'
+  - description: PID Controller (مكتوبة)
     publishdate: 2019/11/04
     subject: Automatic Control Systems 2
     type: Lecture
     url: >-
       https://drive.google.com/file/d/19WL3KiH_NI9-sfOBJbYEN6uBsWJeaeWT/view?usp=drivesdk
+  - description: تصميم الخوارزميات
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/1Q8-m0T7rOIWfgrtU3kV-dLnhGifP0yD5/view?usp=drivesdk
+  - publishdate: 2019/11/12
+    subject: Compilers
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/143cHwt84YcebuosYe67FTx0e4qiUE36N/view?usp=drivesdk
+  - description: Spanning trees
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1wl-LXolmWeib-vVc3ekhOxMlDtYDpIPT/view?usp=drivesdk
+  - description: 'Dynamic programming '
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1YL_eiL33eza_pwI1jEo9SvonJ-NUe7jU/view?usp=drivesdk
+  - description: Applying Genetic Algorithm to knapsack problem
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/12XnGb0whTreXFhlDwgFbo3svuQajNdw1/view?usp=drivesdk
+  - description: Sheet 2
+    publishdate: 2019/11/12
+    subject: Computer Architecture
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/12JNFl7WdvLKdXQ15OzjnqnAwX6d5wvhV/view?usp=drivesdk
+  - description: Sheet 3
+    publishdate: 2019/11/12
+    subject: Computer Architecture
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1F0oDtOnqHFXKWIi7cAZLo1DULKYTPJKo/view?usp=drivesdk
+  - description: Sheet 2
+    publishdate: 2019/11/12
+    subject: Automatic Control Systems 2
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/15qSpX2Brpd9d-b3LH18RJkpvrHJEQEgd/view?usp=drivesdk
+  - description: 'Sheet 1,2,3'
+    publishdate: 2019/11/12
+    subject: Multimedia
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1RUNAIteFBTfIZzLLYUV3VjzGJGKKNz2l/view?usp=drivesdk
+  - description: Solutions of fundamentals of multimedia
+    publishdate: 2019/11/12
+    subject: Multimedia
+    type: Book
+    url: >-
+      https://drive.google.com/file/d/1lj7sBWw7sxKkRrku1F3yY7I4CKeHn5EI/view?usp=drivesdk
+  - description: Computer vision sheet 3
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1829oLT27TgyYuOwt__1m9RiCAj8mEsR1/view?usp=drivesdk
+  - description: AG knapsack
+    publishdate: 2019/11/12
+    subject: Compilers
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1o6AzOkv1ta4B4AG7x7CuwV7gNyM3C-oz/view?usp=drivesdk
+  - description: الوسط الحسابى
+    publishdate: 2019/11/12
+    subject: Engineering Mathematics 4
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/11Q8jiRS26Nbu1i0dbjUzTX3yV6wYDiwq/view?usp=drivesdk
+  - publishdate: 2019/11/12
+    subject: Engineering Mathematics 4
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/11cd5wSsOXvJRB0kE-Kmvznef2jmKFvkE/view?usp=drivesdk
