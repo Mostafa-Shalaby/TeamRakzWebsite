@@ -440,3 +440,9 @@ files:
     type: Exercise
     url: >-
       https://drive.google.com/file/d/1Ehups5hk9IvyDLryMrYs-Q06jekPBLkl/view?usp=drivesdk
+  - description: Lecture  (7) Root locus
+    publishdate: 2019/11/21
+    subject: Automatic Control Systems 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1Y4IPyqWoWVLlI4tjn0ttxPPoT_T3UXkB/view?usp=drivesdk
