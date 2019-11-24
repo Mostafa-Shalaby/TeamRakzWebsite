@@ -241,3 +241,43 @@ files:
     subject: Applied Statistics
     type: Lecture
     url: 'https://drive.google.com/open?id=1331IgRvRZIX2-g0WelsIremD62cAvOAH'
+  - publishdate: 2019/11/24
+    subject: Analysis of Constructions 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1Ed6S4N37Z9bjCeMsy03KrxBbmw6azQ8I'
+  - publishdate: 2019/11/24
+    subject: Analysis of Constructions 2
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1EbEoAhasORD703FkYs89BbB7kLxqdgjW'
+  - publishdate: 2019/11/24
+    subject: Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: 'https://drive.google.com/open?id=15Usf7dydNs8VV7vWgYUj0RI72zxIWmNE'
+  - publishdate: 2019/11/24
+    subject: Design of Reinforced Concrete Structures 1
+    type: Section
+    url: 'https://drive.google.com/open?id=13ibk-DrehI1fc1xV66DbRDpSvG1yw6Gk'
+  - publishdate: 2019/11/24
+    subject: Fluid Mechanics
+    type: Section
+    url: 'https://drive.google.com/open?id=1CNt31fq41HZa9133COyf9sKd_b1EEQl2'
+  - description: حل شيت 4
+    publishdate: 2019/11/24
+    subject: Fluid Mechanics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=14CPh5ypTta1QZnB4r4gkxlOGICn-amxb'
+  - description: ورق م. محمد غلة جريان سطحي وهيدروجراف
+    publishdate: 2019/11/24
+    subject: Hydrology
+    type: Other
+    url: 'https://drive.google.com/open?id=1E26JSwxqeRf1hn0PiM2hOhqP1F5SoEkp'
+  - description: أسئلة الشيت الثالث
+    publishdate: 2019/11/24
+    subject: Applied Statistics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1E2jAt9k_CdyTmHv7rsa8aw40FmSkzUBt'
+  - description: حلول الشيت الثالث م. السيد كمال
+    publishdate: 2019/11/24
+    subject: Applied Statistics
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1E5H0b__Oc8T8m7KiLGRZFOx2U1ogp_c3'
