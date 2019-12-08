@@ -451,3 +451,9 @@ files:
     type: Section
     url: >-
       https://drive.google.com/file/d/1ABJmGIzIvafKgl22ONG8GYJTxfPrZgA4/view?usp=drivesdk
+  - description: 'Lead Compensator '
+    publishdate: 2019/12/08
+    subject: Automatic Control Systems 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1Nks64v93sPJrV2rxF_X-1HHno3N2Nu-L/view?usp=drivesdk
