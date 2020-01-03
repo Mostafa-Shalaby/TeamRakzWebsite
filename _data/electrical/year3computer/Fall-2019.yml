@@ -463,3 +463,15 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1X5xvsU41T5RwxuiyeZs4xvjvhWtywlkY/view?usp=drivesdk
+  - description: Solution of sheet 1
+    publishdate: 2020/01/03
+    subject: Automatic Control Systems 2
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1X7oaro3VepHLqIwB9rBPno2llrsyKeIh/view?usp=drivesdk
+  - description: Solution of sheet 2
+    publishdate: 2020/01/03
+    subject: Automatic Control Systems 2
+    type: Exercise
+    url: >-
+      https://drive.google.com/file/d/1XDA7i60AsOoch5fJuqQaNi7FWGaaSyRn/view?usp=drivesdk
