@@ -9,7 +9,7 @@ title: Electrical Year 3 Computer
     <h3>Computers and Control Systems Division</h3>
     <h3>2019-2020 Term 1</h3>
   </section>
-  {% capture currentmonth %}{{'September' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
   <section class="container">{% assign source = site.data.electrical.year3computer.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
