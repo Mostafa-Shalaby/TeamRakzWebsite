@@ -1,6 +1,6 @@
 <!-- Subject Layout -->
   <div class="accordion-item">
-    <a>{{include.subject}}</a>
+    <a>{{include.subject | slice: 9,100 }}</a>
     <div class="content">
       <div class="lecture-items">{% assign lecturefiles = source | where: 'type', 'Lecture' | where: 'subject', include.subject %}{% assign count = 0 %}
         {% if lecturefiles.size !=  0 %}<h2>Lectures:</h2>{% endif %}
