@@ -11,7 +11,7 @@ title: Electrical Year 3 Telecom
   </section>
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.electrical.year3telecom.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.electrical.year3telecom.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Communication Systems 1' %} 
     {% include query-subject.html subject='Term 2 - Electronic Tests and Measurements 1' %} 
@@ -20,7 +20,7 @@ title: Electrical Year 3 Telecom
     {% include query-subject.html subject='Term 2 - Electronic Circuits 2' %} 
     {% include query-subject.html subject='Term 2 - Project Management and Marketing' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.electrical.year3telecom.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.electrical.year3telecom.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Communication Systems 1' %} 
     {% include query-subject.html subject='Term 1 - Electronic Tests and Measurements 1' %} 

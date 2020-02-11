@@ -10,7 +10,7 @@ title: Electrical Year 2
   </section>
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.electrical.year2.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.electrical.year2.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Engineering Mathematics 3' %} 
     {% include query-subject.html subject='Term 2 - Microprocessor Systems' %} 
@@ -20,7 +20,7 @@ title: Electrical Year 2
     {% include query-subject.html subject='Term 2 - Electrical and Electronic Tests' %} 
     {% include query-subject.html subject='Term 2 - Systems Dynamics and Control Components' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.electrical.year2.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.electrical.year2.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Engineering Mathematics 3' %} 
     {% include query-subject.html subject='Term 1 - Automatic Control Systems' %} 

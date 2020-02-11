@@ -11,7 +11,7 @@ title: Electrical Year 3 Power
   </section>
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.electrical.year3power.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.electrical.year3power.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Electrical Tests 2' %} 
     {% include query-subject.html subject='Term 2 - Electrical Machines 2' %} 
@@ -20,7 +20,7 @@ title: Electrical Year 3 Power
     {% include query-subject.html subject='Term 2 - Electrical Power Systems Analysis 1' %} 
     {% include query-subject.html subject='Term 2 - Data Communication Systems' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.electrical.year3power.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.electrical.year3power.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Electrical Machines 1' %} 
     {% include query-subject.html subject='Term 1 - Transmission and Distribution' %} 

@@ -10,7 +10,7 @@ title: Civil Year 1
   </section>
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.civil.year1.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.civil.year1.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Structural Analysis 1' %} 
     {% include query-subject.html subject='Term 2 - Flat Area' %} 
@@ -19,7 +19,7 @@ title: Civil Year 1
     {% include query-subject.html subject='Term 2 - Electromechanical Installations and Equipment Engineering' %} 
     {% include query-subject.html subject='Term 2 - Engineering Geology' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.civil.year1.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.civil.year1.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Structural Analysis 1' %} 
     {% include query-subject.html subject='Term 1 - Flat Area' %} 

@@ -11,7 +11,7 @@ title: Prepartory
   <!-- Page Content -->
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.prepartory.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.prepartory.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Engineering Mathematics 1' %} 
     {% include query-subject.html subject='Term 2 - Engineering Physics 1' %} 
@@ -21,7 +21,7 @@ title: Prepartory
     {% include query-subject.html subject='Term 2 - Technical English' %} 
     {% include query-subject.html subject='Term 2 - Engineering History' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.prepartory.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.prepartory.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Engineering Mathematics 1' %} 
     {% include query-subject.html subject='Term 1 - Engineering Physics 1' %} 

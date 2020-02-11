@@ -10,7 +10,7 @@ title: Civil Year 2
   </section>
   {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
   {% if currentmonth >= february and currentmonth <= july %}
-  <section class="container">{% assign source = site.data.civil.year2.Winter-2020.files %}
+  <section class="container">{% assign source = site.data.civil.year2.Data_2019-2020_Term2.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 2 - Analysis of Constructions 2' %} 
     {% include query-subject.html subject='Term 2 - Design of Reinforced Concrete Structures 1' %} 
@@ -19,7 +19,7 @@ title: Civil Year 2
     {% include query-subject.html subject='Term 2 - Soil Mechanics 1' %} 
     {% include query-subject.html subject='Term 2 - Irrigation and drainage engineering' %} 
   </section>{% else %}
-  <section class="container">{% assign source = site.data.civil.year2.Fall-2019.files %}
+  <section class="container">{% assign source = site.data.civil.year2.Data_2019-2020_Term1.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Analysis of Constructions 2' %} 
     {% include query-subject.html subject='Term 1 - Design of Reinforced Concrete Structures 1' %} 
