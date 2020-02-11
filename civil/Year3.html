@@ -8,6 +8,16 @@ title: Civil Year 3
     <h2>Civil Year 3</h2>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.civil.year3.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Design of Reinforced Concrete Structures 2' %} 
+    {% include query-subject.html subject='Term 2 - Design of Metal Structures' %} 
+    {% include query-subject.html subject='Term 2 - Project Management and Construction' %} 
+    {% include query-subject.html subject='Term 2 - Foundation Engineering 1' %} 
+    {% include query-subject.html subject='Term 2 - Irrigation Design 1' %}
+  </section>{% else %}
   <section class="container">{% assign source = site.data.civil.year3.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Analysis of Constructions 3' %} 
@@ -16,4 +26,4 @@ title: Civil Year 3
     {% include query-subject.html subject='Term 1 - Soil Mechanics 2' %} 
     {% include query-subject.html subject='Term 1 - Transportation and Traffic Engineering' %} 
     {% include query-subject.html subject='Term 1 - Hydraulics' %}
-  </section>
+  </section>{% endif %}

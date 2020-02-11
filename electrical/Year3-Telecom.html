@@ -9,6 +9,17 @@ title: Electrical Year 3 Telecom
     <h3>Electronics and Electrical Communications Division</h3>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.electrical.year3telecom.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Communication Systems 1' %} 
+    {% include query-subject.html subject='Term 2 - Electronic Tests and Measurements 1' %} 
+    {% include query-subject.html subject='Term 2 - Digital signal processing' %} 
+    {% include query-subject.html subject='Term 2 - Optoelectronics' %} 
+    {% include query-subject.html subject='Term 2 - Electronic Circuits 2' %} 
+    {% include query-subject.html subject='Term 2 - Project Management and Marketing' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.electrical.year3telecom.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Communication Systems 1' %} 
@@ -17,4 +28,4 @@ title: Electrical Year 3 Telecom
     {% include query-subject.html subject='Term 1 - Microprocessors and their Applications' %} 
     {% include query-subject.html subject='Term 1 - Electromagnetic radiation' %} 
     {% include query-subject.html subject='Term 1 - Engineering Mathematics 4' %} 
-  </section>
+  </section>{% endif %}

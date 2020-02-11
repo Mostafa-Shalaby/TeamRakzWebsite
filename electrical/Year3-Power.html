@@ -9,6 +9,17 @@ title: Electrical Year 3 Power
     <h3>Electrical Power and Machines Division</h3>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.electrical.year3power.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Electrical Tests 2' %} 
+    {% include query-subject.html subject='Term 2 - Electrical Machines 2' %} 
+    {% include query-subject.html subject='Term 2 - Power Systems Protection' %} 
+    {% include query-subject.html subject='Term 2 - High Voltage Engineering' %} 
+    {% include query-subject.html subject='Term 2 - Electrical Power Systems Analysis 1' %} 
+    {% include query-subject.html subject='Term 2 - Data Communication Systems' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.electrical.year3power.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Electrical Machines 1' %} 
@@ -18,4 +29,4 @@ title: Electrical Year 3 Power
     {% include query-subject.html subject='Term 1 - Electrical Tests 2' %} 
     {% include query-subject.html subject='Term 1 - Automatic Control' %} 
     {% include query-subject.html subject='Term 1 - Power Electronics' %} 
-  </section>
+  </section>{% endif %}

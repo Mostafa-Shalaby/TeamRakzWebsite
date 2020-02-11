@@ -8,6 +8,17 @@ title: Civil Year 2
     <h2>Civil Year 2</h2>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.civil.year2.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Analysis of Constructions 2' %} 
+    {% include query-subject.html subject='Term 2 - Design of Reinforced Concrete Structures 1' %} 
+    {% include query-subject.html subject='Term 2 - Topographic Area' %} 
+    {% include query-subject.html subject='Term 2 - Engineering Economics' %} 
+    {% include query-subject.html subject='Term 2 - Soil Mechanics 1' %} 
+    {% include query-subject.html subject='Term 2 - Irrigation and drainage engineering' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.civil.year2.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Analysis of Constructions 2' %} 
@@ -16,4 +27,4 @@ title: Civil Year 2
     {% include query-subject.html subject='Term 1 - Fluid Mechanics' %} 
     {% include query-subject.html subject='Term 1 - Hydrology' %} 
     {% include query-subject.html subject='Term 1 - Applied Statistics' %}
-  </section>
+  </section>{% endif %}

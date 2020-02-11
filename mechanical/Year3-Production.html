@@ -9,6 +9,16 @@ title: Mechanical Year 3
     <h3>Production and Design Division</h3>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.mechanical.year3production.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Machinery Design' %} 
+    {% include query-subject.html subject='Term 2 - Metal Forming Theory and Technology 2' %} 
+    {% include query-subject.html subject='Term 2 - Vibration Theory' %} 
+    {% include query-subject.html subject='Term 2 - Machining & Forming Machines' %} 
+    {% include query-subject.html subject='Term 2 - Environmental Studies' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.mechanical.year3production.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Machinery Design' %} 
@@ -17,4 +27,4 @@ title: Mechanical Year 3
     {% include query-subject.html subject='Term 1 - Automatic Control' %} 
     {% include query-subject.html subject='Term 1 - Metal Forming Theory and Technology 1' %} 
     {% include query-subject.html subject='Term 1 - Legislation and contracts' %} 
-  </section>
+  </section>{% endif %}

@@ -8,6 +8,17 @@ title: Mechanical Year 2
     <h2>Mechanical Year 2</h2>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.mechanical.year2.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Machinery Design' %} 
+    {% include query-subject.html subject='Term 2 - Fluid Mechanics' %} 
+    {% include query-subject.html subject='Term 2 - Production Engineering 2' %} 
+    {% include query-subject.html subject='Term 2 - Heat Transfer and Mass' %} 
+    {% include query-subject.html subject='Term 2 - Measurements' %} 
+    {% include query-subject.html subject='Term 2 - Engineering Economics' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.mechanical.year2.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Theory of Machines' %} 
@@ -17,4 +28,4 @@ title: Mechanical Year 2
     {% include query-subject.html subject='Term 1 - Thermodynamics 2' %} 
     {% include query-subject.html subject='Term 1 - Fluid Mechanics' %} 
     {% include query-subject.html subject='Term 1 - Industrial Safety' %} 
-  </section>
+  </section>{% endif %}

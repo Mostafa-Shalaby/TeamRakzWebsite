@@ -7,7 +7,18 @@ title: Electrical Year 1
   <section id="electrical-general1-showcase" class="showcase">
     <h2>Electrical Year 1</h2>
     <h3>2019-2020 Term 1</h3>
-  </section>
+  </section> 
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.electrical.year1.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Engineering Mathematics 2' %} 
+    {% include query-subject.html subject='Term 2 - Electrical and Electronic Engineering' %} 
+    {% include query-subject.html subject='Term 2 - Logical Circuits' %} 
+    {% include query-subject.html subject='Term 2 - Computer programming' %} 
+    {% include query-subject.html subject='Term 2 - Electrical Measurements and Instruments' %} 
+    {% include query-subject.html subject='Term 2 - Technical Reports Writing' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.electrical.year1.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Engineering Mathematics 2' %} 
@@ -17,4 +28,4 @@ title: Electrical Year 1
     {% include query-subject.html subject='Term 1 - Data Structures and Algorithms' %} 
     {% include query-subject.html subject='Term 1 - Civil Engineering' %} 
     {% include query-subject.html subject='Term 1 - Mechanical Power Engineering' %} 
-  </section>
+  </section>{% endif %}

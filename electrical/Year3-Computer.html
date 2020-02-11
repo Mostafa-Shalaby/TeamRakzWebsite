@@ -9,6 +9,17 @@ title: Electrical Year 3 Computer
     <h3>Computers and Control Systems Division</h3>
     <h3>2019-2020 Term 1</h3>
   </section>
+  {% capture currentmonth %}{{'now' | date: '%m'}}{% endcapture %}{% capture february %}{{'February' | date: '%m'}}{% endcapture %}{% capture july %}{{'July' | date: '%m'}}{% endcapture %}
+  {% if currentmonth >= february and currentmonth <= july %}
+  <section class="container">{% assign source = site.data.electrical.year3computer.Winter-2020.files %}
+    {% include query-week.html %}
+    {% include query-subject.html subject='Term 2 - Computer Architecture' %} 
+    {% include query-subject.html subject='Term 2 - Software Engineering' %} 
+    {% include query-subject.html subject='Term 2 - Modeling and Simulation' %} 
+    {% include query-subject.html subject='Term 2 - Operating Systems' %} 
+    {% include query-subject.html subject='Term 2 - Digital Communications' %} 
+    {% include query-subject.html subject='Term 2 - Digital Control' %} 
+  </section>{% else %}
   <section class="container">{% assign source = site.data.electrical.year3computer.Fall-2019.files %}
     {% include query-week.html %}
     {% include query-subject.html subject='Term 1 - Design and Analysis of Algorithms' %} 
@@ -18,4 +29,4 @@ title: Electrical Year 3 Computer
     {% include query-subject.html subject='Term 1 - Automatic Control Systems 2' %} 
     {% include query-subject.html subject='Term 1 - Computer Architecture' %} 
     {% include query-subject.html subject='Term 1 - Project Management and Marketing' %} 
-  </section>
+  </section>{% endif %}
