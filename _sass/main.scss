@@ -12,6 +12,7 @@ $alt-secondary-color: #02a5d9;
 $dark-color: #333333;
 $grey-color: #a0a0a0;
 $light-color: #f4f4f4;
+$alt-light-color: #fAFAFA;
 $menu-color: #f4f4f4;
 
 body {
@@ -48,7 +49,7 @@ a {text-decoration: none;}
 /* Utility Classes */
 .container{
 	color: $dark-color;
-	padding: 20px 10px;
+	padding: 10px 0px;
 }
 .text-primary{
 	color: $primary-color;
@@ -97,7 +98,7 @@ a {text-decoration: none;}
 
 /* Splash Cover Styling */
 .showcase{
-  background: $dark-color url('../img/Covers/Books1.jpg') no-repeat center center/cover;
+  	background: $dark-color url('../img/Covers/Books1.jpg') no-repeat center center/cover;
 	max-height: 100vh;
 	text-align: center;
 	color: $light-color;
@@ -189,35 +190,35 @@ a {text-decoration: none;}
 
 /* File Item accordion */
 .accordion-item > a {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 15px 45px 15px 15px;
-  color: $dark-color;
-  font-size: 18px;
-  font-weight: 400;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 15px 45px 15px 25px;
+	color: $dark-color;
+	font-size: 18px;
+	font-weight: 400;
 	border-bottom: 1px solid #e5e5e5;
 	transition: color 0.35s ease-in-out;
 }
 .accordion-item > a:hover,
 .accordion-item > a:hover::after {
-  cursor: pointer;
-  color: $primary-color;
+	cursor: pointer;
+	color: $primary-color;
 }
 .accordion-item > a.active {
-  color: $primary-color;
-  border-bottom: 1px solid $primary-color;
+	color: $primary-color;
+	border-bottom: 1px solid $primary-color;
 }
 .accordion-item > a::after {
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
-  content: '\f055';
-  position: absolute;
-  float: right;
-  right: 1rem;
-  font-size: 1.5rem;
-  color: $dark-color;
+	content: '\f055';
+	position: absolute;
+	float: right;
+	right: 1rem;
+	font-size: 1.5rem;
+  	color: $dark-color;
 	text-align: center;
 	transition: color 0.35s ease-in-out;
 }
@@ -225,28 +226,34 @@ a {text-decoration: none;}
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	content: '\f056';
-  color: $primary-color;
+  	color: $primary-color;
 }
 .accordion-item > .content {
-  opacity: 0;
-  padding: 0 1rem;
-  max-height: 0;
-  border-bottom: 1px solid #e5e5e5;
-  overflow: hidden;
-  transition: all, 0.35s ease-in-out;
-  -webkit-transition: all, 0.35s ease-in-out;
-  -moz-transition: all, 0.35s ease-in-out;
-  -ms-transition: all, 0.35s ease-in-out;
+	opacity: 0;
+	padding: 0 1rem;
+	max-height: 0;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+	transition: all, 0.35s ease-in-out;
+	-webkit-transition: all, 0.35s ease-in-out;
+	-moz-transition: all, 0.35s ease-in-out;
+	-ms-transition: all, 0.35s ease-in-out;
 }
 .accordion-item > .content.active {
-  opacity: 1;
-  padding: 1rem;
-  max-height: 100%;
+	opacity: 1;
+	padding: 1rem;
+	max-height: 100%;
 }
 .accordion-item > .content h2{
 	text-align: left;
 	font-size: 25px;
 	margin-top: 15px;
+}
+.accordion-item:nth-child(even){
+	background-color: $alt-light-color;
+}
+.accordion-item:last-child{
+	border-radius: 0px 0px 5px 5px;
 }
 
 /* File Items Styling */
