@@ -1,7 +1,37 @@
 title: Term 2 (2019-2020)
 files:
-  - publishdate: 2020/01/01
+  - description: Holder
+    publishdate: 2020/01/01
     subject: Other
     type: Other
     url: none
-    description: Holder
+  - publishdate: 2020/02/14
+    subject: Term 2 - Analysis of Constructions 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kJ_pt100r5fz3YsLUQ9cGxv9W-OPx0II/view?usp=drivesdk
+  - publishdate: 2020/02/14
+    subject: Term 2 - Design of Reinforced Concrete Structures 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kJZEvRs9LsJpe89XnM0nxTH7DcRYVMl5/view?usp=drivesdk
+  - publishdate: 2020/02/14
+    subject: Term 2 - Soil Mechanics 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kUUPybCc2RIj9dE7FkNxNYqqyASIWrWW/view?usp=drivesdk
+  - publishdate: 2020/02/14
+    subject: Term 2 - Soil Mechanics 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kXjmBVAqg-sJESFZ9VCN29icDsQBto7Y/view?usp=drivesdk
+  - publishdate: 2020/02/14
+    subject: Term 2 - Topographic Area
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kNDmO4LaNYEmvq_3VXgYQ-rI_vJ2hU-R/view?usp=drivesdk
+  - publishdate: 2020/02/14
+    subject: Term 2 - Irrigation and drainage engineering
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1kQv2PWwFFv5EobozH6ZBK5N4GZlVJuMz/view?usp=drivesdk
