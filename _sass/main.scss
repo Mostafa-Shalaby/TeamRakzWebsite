@@ -230,7 +230,7 @@ a {text-decoration: none;}
 }
 .accordion-item > .content {
 	opacity: 0;
-	padding: 0 1rem;
+	padding: 0 2rem;
 	max-height: 0;
 	border-bottom: 1px solid #e5e5e5;
 	overflow: hidden;
@@ -241,7 +241,7 @@ a {text-decoration: none;}
 }
 .accordion-item > .content.active {
 	opacity: 1;
-	padding: 1rem;
+	padding: 1rem 2rem;
 	max-height: 100%;
 }
 .accordion-item > .content h2{
