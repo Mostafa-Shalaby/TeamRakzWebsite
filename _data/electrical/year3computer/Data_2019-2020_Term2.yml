@@ -3,5 +3,10 @@ files:
   - publishdate: 2020/02/14
     subject: Term 2 - Software Engineering
     type: Lecture
+    url: 'https://drive.google.com/file/d/1ik3mv_i0uQm11rNT-Tg7hxOga2WCO2Sd/view'
+  - description: lecture 1
+    publishdate: 2020/02/24
+    subject: Term 2 - Modeling and Simulation
+    type: Lecture
     url: >-
-      https://drive.google.com/file/d/1ik3mv_i0uQm11rNT-Tg7hxOga2WCO2Sd/view
+      https://drive.google.com/file/d/1omO8O6GC3w6eYyeBGOA4nglSq9O5-cNL/view?usp=drivesdk
