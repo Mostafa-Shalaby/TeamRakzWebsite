@@ -1,7 +1,67 @@
 title: Term 2 (2019-2020)
 files:
-  - publishdate: 2020/01/01
+  - description: Holder
+    publishdate: 2020/01/01
     subject: Other
     type: Other
     url: none
-    description: Holder
+  - description: 'السكشن الاول '
+    publishdate: 2020/02/25
+    subject: Term 2 - Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1XdsnrBX020-k0i6ymOoWfFdBeuTgDjpD/view?fbclid=IwAR3Dc3EygU1p8cKfL6Q8O-xVYWKBXXYtuquDSXUCWgFp8_biQ3FJLrJNnIQ
+  - description: السكشن التاني
+    publishdate: 2020/02/25
+    subject: Term 2 - Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1ZLieMmZPWZMz4bCDjvt4veGQDqhi5AgH/view?fbclid=IwAR1oiGHWeS_fGXGSGWk4Um62mpV33xmisBA9Wrc08euzRVqXFoR2rT0t_LA
+  - description: السكشن التالت
+    publishdate: 2020/02/25
+    subject: Term 2 - Electrical Tests 2
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1_VnSlqAyJK7LydER7B1hjg50V1tQRJ2L/view?fbclid=IwAR3MZZdJQd91y7Esi_Cujpka2_mNWJ_TRD7TTCdK18eVf3kCapjmuNUmiY8
+  - description: المحاضره التانية
+    publishdate: 2020/02/25
+    subject: Term 2 - Electrical Machines 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/10M9yxbLTauenWVxtpurSiOGaCX_E5R4E/view?fbclid=IwAR0P6FfWUp_dLooqoSKIPwAMEtUmGw6m72oqHXvP2TTeWL9gJ2g1X8JLyWQ
+  - description: المحاضره الاولي والثانية
+    publishdate: 2020/02/25
+    subject: Term 2 - Power Systems Protection
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1UYTHHcm9tkI-kibPN9AcxVkuai25Acc2/view?fbclid=IwAR3G1pYmZlgLjyE7a3XtPpTQkaAmNwUOs6XwuDH6WH92wAtMdbGJddsoXH0
+  - description: المحاضره الاولي
+    publishdate: 2020/02/25
+    subject: Term 2 - High Voltage Engineering
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1ib5eekUBKJD6RI_GcJ2K1uN_XG1ArnHz/view?fbclid=IwAR2SBs4Rcmp7Z5UJRMJ2V5C7WYEJaIUILg5HCKliTATKIJ8coo8u4mk0tQU
+  - description: المحاضره الثانية
+    publishdate: 2020/02/25
+    subject: Term 2 - High Voltage Engineering
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1Xdzl_AvvBYD3JB4x0UQe3Fft5ZvevFoZ/view?fbclid=IwAR2wgPOm1rOesHZmIrHFspMLtS8ub512qQpE3iIsKGMx30J2I9xVl9s_nLs
+  - description: المحاضره الاولي
+    publishdate: 2020/02/25
+    subject: Term 2 - Electrical Power Systems Analysis 1
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1WVOju1Oj3aOlrmqKNNfjNA2H5rndRGjr/view?fbclid=IwAR1FHMcxQuPxOsePJPyN5FIy-Qj9T71ALjEvxd0TitX1a6mcqdNxKyHaJP0
+  - description: المحاضره الاولي
+    publishdate: 2020/02/25
+    subject: Term 2 - Data Communication Systems
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/10Vz1cD0aM02IUntrIaASMY-OWasORQ3L/view?fbclid=IwAR33lzloYU0T5pd5T0m7lROzbTUrRQKWzf9XXJmlgJinepqmPkoUl6VGK9M
+  - description: 'الاسبوع الاول والتاني '
+    publishdate: 2020/02/25
+    subject: Week Compilation
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1trNZPNmOYXcuZps4qqv74IE-C5Ewvy6H/view?fbclid=IwAR1oiGHWeS_fGXGSGWk4Um62mpV33xmisBA9Wrc08euzRVqXFoR2rT0t_LA
