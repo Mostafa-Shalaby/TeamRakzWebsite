@@ -1,12 +1,113 @@
 title: Term 2 (2019-2020)
 files:
-  - publishdate: 2020/02/14
-    subject: Term 2 - Software Engineering
-    type: Lecture
-    url: 'https://drive.google.com/file/d/1ik3mv_i0uQm11rNT-Tg7hxOga2WCO2Sd/view'
-  - description: lecture 1
+  - description: 'RLC in s plan ,'
     publishdate: 2020/02/24
     subject: Term 2 - Modeling and Simulation
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1omO8O6GC3w6eYyeBGOA4nglSq9O5-cNL/view?usp=drivesdk
+  - description: Lecture 1 presentation
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Communications
+    type: Other
+    url: 'https://drive.google.com/file/d/16uIuEjmqMT7dpG658JYyVB_ZT70QYiqN/view'
+  - description: Lecture 1 written
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Communications
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/10Vz1cD0aM02IUntrIaASMY-OWasORQ3L/view?fbclid=IwAR33lzloYU0T5pd5T0m7lROzbTUrRQKWzf9XXJmlgJinepqmPkoUl6VGK9M
+  - description: 'Lecture 1 '
+    publishdate: 2020/02/27
+    subject: Term 2 - Computer Architecture
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1lH8vpvnw05Ta2youmDlX7uFr8sVQJdTr'
+  - description: >-
+      Digital communication reference : Modern digital and analog communication
+      systems..
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Communications
+    type: Book
+    url: >-
+      https://ict.iitk.ac.in/wp-content/uploads/EE320A-Principles-Of-Communication-modern-digital-and-analog-communication-systems-by-b-p-lathi.pdf?
+  - description: 'Lecture 2 '
+    publishdate: 2020/02/27
+    subject: Term 2 - Computer Architecture
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1B5TTtUa2zYb8bFQmyKpso2ivOrgsBMF4'
+  - description: Lecture 3
+    publishdate: 2020/02/27
+    subject: Term 2 - Computer Architecture
+    type: Lecture
+    url: 'https://drive.google.com/open?id=11W3cGGJKhI0ibTnIkKnnNnBe6MIXnAa8'
+  - description: Sheet 1
+    publishdate: 2020/02/27
+    subject: Term 2 - Computer Architecture
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1YuWbYfFEL0CXtIfOjz09110d7G04WwKr'
+  - description: Lecture 1
+    publishdate: 2020/02/27
+    subject: Term 2 - Operating Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1Kop50tGrObqWgwFBwFn6m2y56_ATlOfY'
+  - description: Lecture 2
+    publishdate: 2020/02/27
+    subject: Term 2 - Operating Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=11UcOvF5gcIFf1B3DIOOmeZzeu6POEfiu'
+  - description: Lecture 3
+    publishdate: 2020/02/27
+    subject: Term 2 - Operating Systems
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1vMEkTuJdDY9g6BdLy_0DQZb8iHfsKDxw'
+  - description: Sheet 1
+    publishdate: 2020/02/27
+    subject: Term 2 - Modeling and Simulation
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1HSTSJhP_kFNO9Yf0mUJkCn1NuAGl95lr'
+  - description: Section 1
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Section
+    url: 'https://drive.google.com/open?id=1GnS-W3XE2EZ1IX_f634rwT6lNuvtWw_B'
+  - description: Section 2
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Communications
+    type: Section
+    url: 'https://drive.google.com/open?id=1stQANEEo6OyY7IOWpSXHLRblOjUT-SfI'
+  - description: Task 1
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1hrELHPWA7UieW-05dc_i2GVjtj9kFn3w'
+  - description: Task 2
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Exercise
+    url: 'https://drive.google.com/open?id=1_SOz1ATbmu875UG-YCfq5erbYs3aWwO1'
+  - description: Lecture 1_1 Introduction to digital control video
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://www.youtube.com/watch?v=SWAhCII9_PE'
+  - description: Lecture 1_2 Introduction to digital control video
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://www.youtube.com/watch?v=ynDKNlA4tCM'
+  - description: Lecture 1_3 Introduction to digital control video
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://www.youtube.com/watch?v=hRFnvVE4lbU'
+  - description: Lecture 1_4 Introduction to digital control video
+    publishdate: 2020/02/27
+    subject: Term 2 - Digital Control
+    type: Other
+    url: >-
+      https://www.youtube.com/watch?v=SWAhCII9_PE&list=PLvxbzi3ZhGRlbaIo_xhLOd7QHVv8VQSlG&index=4
+  - description: Chapters 1&2
+    publishdate: 2020/02/27
+    subject: Term 2 - Software Engineering
+    type: Lecture
+    url: 'https://drive.google.com/open?id=1QArSU-9_o5K15Nsk8Zu5Wa4X891fIbNJ'
