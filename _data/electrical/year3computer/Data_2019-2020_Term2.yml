@@ -117,3 +117,9 @@ files:
     type: Section
     url: >-
       https://drive.google.com/file/d/1a3kzodvmSAIehQyRa9ylzaD538J8RWWC/view?usp=drivesdk
+  - publishdate: 2020/03/01
+    subject: Term 2 - Modeling and Simulation
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1m8F55P2HpXD4z_J5Mmn_3ATVBguJAU-I/view?usp=drivesdk
+    description: 'Lec(1) RLC in S Plan..Lec(2) Modeling in mechanical system '
