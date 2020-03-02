@@ -65,3 +65,39 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1trNZPNmOYXcuZps4qqv74IE-C5Ewvy6H/view?fbclid=IwAR1oiGHWeS_fGXGSGWk4Um62mpV33xmisBA9Wrc08euzRVqXFoR2rT0t_LA
+  - publishdate: 2020/03/02
+    subject: Week Compilation
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1wQXfxNDaI6OHh9xF6lJkydg41RgjKzOi/view?fbclid=IwAR3SIJX6CEudqutptkRKvpizLuUoFVtEJVwF-DrpLr_RYjDXRXfDE3WH52s
+    description: الاسبوع الثالث
+  - publishdate: 2020/03/02
+    subject: Term 2 - Electrical Machines 2
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/10MiCDymC1rGQOwiretatCrNZBz1Ut5LY/view?fbclid=IwAR0dL0915QW1NmWAYhMyBqk1OuLgCF5lKZKaITEQSg4iUjexFjp1GodJgkM
+    description: المحاضره الثالثه
+  - publishdate: 2020/03/02
+    subject: Term 2 - Data Communication Systems
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1a3kzodvmSAIehQyRa9ylzaD538J8RWWC/view?fbclid=IwAR2zV20lkwANoDmhQhSECamcvbYXphP_I77YaGw92irhIyp40U3Hcrys1-Q
+    description: السكشن الاول
+  - publishdate: 2020/03/02
+    subject: Term 2 - Power Systems Protection
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/1X8jPoHjtOWOKoc2sVoXY0vh-9m1JTbqT/view?fbclid=IwAR1ZYDA0l8CPs103OeN1o5vpAOJ6MeCK2GPGIVH5h0ynZMV54-hV2uHZPYU
+    description: 'المحاضره الثالثه '
+  - publishdate: 2020/03/02
+    subject: Term 2 - Electrical Power Systems Analysis 1
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1uxvGKMET85g9aEnBRtKiAkEwiC3H90s0/view?fbclid=IwAR1ZYDA0l8CPs103OeN1o5vpAOJ6MeCK2GPGIVH5h0ynZMV54-hV2uHZPYU
+    description: السكشن الاول والتاني
+  - publishdate: 2020/03/02
+    subject: Term 2 - High Voltage Engineering
+    type: Section
+    url: >-
+      https://drive.google.com/file/d/1w5UpnAlP_7qMVcpfkt5v5chMAtW4KXSB/view?fbclid=IwAR2_r1KoPzdL2-LUp163OJM5unJLcXCPOFwsXGzGV6A_7IVynFbFO_imS5M
+    description: سكشن 1
