@@ -174,3 +174,8 @@ files:
     type: Other
     url: 'https://www.youtube.com/watch?v=y6J6StmqnDk'
     description: '4_4'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Modeling and Simulation
+    url: 'https://drive.google.com/open?id=19zA06LoIYNPG5bxR69asW3SSJAF8EkAC'
+    type: Book
+    description: Modern Control Engineering 5th edition by Katsuhiko Ogata
