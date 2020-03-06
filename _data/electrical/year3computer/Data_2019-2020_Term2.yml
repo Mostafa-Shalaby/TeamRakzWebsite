@@ -154,3 +154,23 @@ files:
     type: Exercise
     description: Task 3
     url: 'https://drive.google.com/open?id=10gkzOGWnonhqWWciqWvKrMPek65ej2ei'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://www.youtube.com/watch?'
+    description: '4_1'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://www.youtube.com/watch?'
+    description: '4_2'
+  - publishdate: 2020/03/07
+    type: Other
+    subject: Term 2 - Digital Control
+    url: 'https://www.youtube.com/watch?v=vIjTNt4QT5c'
+    description: '4_3'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Lecture
+    url: 'https://www.youtube.com/watch?v=y6J6StmqnDk'
+    description: '4_4'
