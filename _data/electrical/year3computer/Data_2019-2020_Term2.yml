@@ -179,3 +179,9 @@ files:
     url: 'https://drive.google.com/open?id=19zA06LoIYNPG5bxR69asW3SSJAF8EkAC'
     type: Book
     description: Modern Control Engineering 5th edition by Katsuhiko Ogata
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Communications
+    type: Lecture
+    url: >-
+      https://drive.google.com/file/d/12101mq97dkEHzIoUydTT8v_ATIiOZ4r6/view?usp=drivesdk
+    description: Lec 3
