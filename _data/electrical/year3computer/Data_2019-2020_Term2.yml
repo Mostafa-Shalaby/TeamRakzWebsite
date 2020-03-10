@@ -5,7 +5,7 @@ files:
     subject: Term 2 - Digital Communications
     type: Other
     url: 'https://drive.google.com/file/d/16uIuEjmqMT7dpG658JYyVB_ZT70QYiqN/view'
-  - description: Lecture 1 written
+  - description: Lecture 1 - Written
     publishdate: 2020/02/27
     subject: Term 2 - Digital Communications
     type: Lecture
@@ -59,12 +59,12 @@ files:
     subject: Term 2 - Modeling and Simulation
     type: Exercise
     url: 'https://drive.google.com/open?id=1HSTSJhP_kFNO9Yf0mUJkCn1NuAGl95lr'
-  - description: Section 1
+  - description: Section 1 Formulas
     publishdate: 2020/02/27
     subject: Term 2 - Digital Control
     type: Section
     url: 'https://drive.google.com/open?id=1GnS-W3XE2EZ1IX_f634rwT6lNuvtWw_B'
-  - description: Section 2
+  - description: Section 2 Formulas
     publishdate: 2020/02/27
     subject: Term 2 - Digital Control
     type: Section
@@ -116,13 +116,13 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1m8F55P2HpXD4z_J5Mmn_3ATVBguJAU-I/view?usp=drivesdk
-    description: 'Lec(1) RLC in S Plan..Lec(2) Modeling in mechanical system '
+    description: 'Lecture 1 - RLC in S Plan & Lecture 2 - Modeling in mechanical system '
   - publishdate: 2020/03/05
     subject: Term 2 - Modeling and Simulation
     type: Lecture
     url: >-
       https://drive.google.com/file/d/1oS6c4WRsjjUKtp15AsVM2zh98h1SRZ4K/view?usp=drivesd
-    description: 'Lec(3) Modeling of Mechanical and electromecanical systems '
+    description: 'Lecture 3 - Modeling of Mechanical and electromecanical systems '
   - publishdate: 2020/03/06
     subject: Term 2 - Modeling and Simulation
     type: Section
@@ -157,23 +157,53 @@ files:
   - publishdate: 2020/03/07
     subject: Term 2 - Digital Control
     type: Other
-    url: 'https://www.youtube.com/watch?'
-    description: '4_1'
+    url: 'https://youtu.be/EdQCZE90eCg'
+    description: 'Lecture 2-P1 Sample and Hold Circuit'
   - publishdate: 2020/03/07
     subject: Term 2 - Digital Control
     type: Other
-    url: 'https://www.youtube.com/watch?'
-    description: '4_2'
+    url: 'https://youtu.be/y7-qjVtFT70'
+    description: 'Lecture 2-P2 Analog to Digital Converter (ADC)'
   - publishdate: 2020/03/07
     type: Other
     subject: Term 2 - Digital Control
-    url: 'https://www.youtube.com/watch?v=vIjTNt4QT5c'
-    description: '4_3'
+    url: 'https://youtu.be/5JwFLGRKtyY'
+    description: 'Lecture 2-P3 Mathematical Model of the Zero Order Hold (ZOH)'
   - publishdate: 2020/03/07
     subject: Term 2 - Digital Control
     type: Other
-    url: 'https://www.youtube.com/watch?v=y6J6StmqnDk'
-    description: '4_4'
+    url: 'https://youtu.be/OE4rvQfDLB4'
+    description: 'Lecture 2-P4 R-2R resistor ladder based digital-to-analog converter'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://youtu.be/vPbA-FSMjSA'
+    description: 'Lecture 3-P1 Binary Weighted Resistor DAC'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://youtu.be/F6EgzuagKmM'
+    description: 'Lecture 3-P2 Practical Issues of Zero-order hold (ZOH)'
+  - publishdate: 2020/03/07
+    type: Other
+    subject: Term 2 - Digital Control
+    url: 'https://youtu.be/MNuVJvAdD5s'
+    description: 'Lecture 3-P3 Mapping between S-plane and Z-plane'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://youtu.be/y6J6StmqnDk'
+    description: 'Lecture 3-P4 Working of a counter type ADC'
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Other
+    url: 'https://youtu.be/_ODPxdS4tWM'
+    description: 'Lecture 4-P2 Mapping different areas of the S-plane onto the Z-plane'
+  - publishdate: 2020/03/07
+    type: Other
+    subject: Term 2 - Digital Control
+    url: 'https://youtu.be/vIjTNt4QT5c'
+    description: 'Lecture 4-P3 Mapping different areas of the S-plane onto the Z-plane'
   - publishdate: 2020/03/07
     subject: Term 2 - Modeling and Simulation
     url: 'https://drive.google.com/open?id=19zA06LoIYNPG5bxR69asW3SSJAF8EkAC'
@@ -184,4 +214,16 @@ files:
     type: Lecture
     url: >-
       https://drive.google.com/file/d/12101mq97dkEHzIoUydTT8v_ATIiOZ4r6/view?usp=drivesdk
-    description: Lec 3
+    description: Lecture 3 - Written
+  - publishdate: 2020/03/07
+    subject: Term 2 - Modeling and Simulation
+    type: Exercise
+    url: >-
+      https://drive.google.com/open?id=1ABFs23SMlW7_cARwtZIxXAtOPpIPSDBT/view?usp=drivesdk
+    description: Sheet 2
+  - publishdate: 2020/03/07
+    subject: Term 2 - Digital Control
+    type: Exercise
+    url: >-
+      https://drive.google.com/open?id=1x23wCUefNT60eQ_Z6LBuk_OjyJ1EjPpR/view?usp=drivesdk
+    description: Task 4
